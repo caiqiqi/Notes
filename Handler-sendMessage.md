@@ -54,5 +54,7 @@ private boolean enqueueMessage(MessageQueue queue, Message msg, long uptimeMilli
         return queue.enqueueMessage(msg, uptimeMillis);
     }
 ```
-所以发现其实到最后就是把向`MessageQueue`中增加一条`Message`
-所以由于主线程中有一个`Looper`，可以循环取出这个`Message`，于是就可以在主线程的`Handler`中处理这个`Message`了。
+所以发现其实到最后就是把向`MessageQueue`中增加一条`Message` </br>
+所以由于主线程中有一个`Looper`，可以循环取出这个`Message`，于是就可以在主线程的`Handler`中处理这个`Message`了。</br>
+另外由于 `Handler` 每次 `sendMessage()` 时，都会将一个消息送到一个消息对队列中，所以每次必须是一个新的 `Message` 对象才行
+
