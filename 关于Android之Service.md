@@ -24,3 +24,10 @@ The system calls this method when the service is first created, to perform one-t
 ## onDestroy()
 
 The system calls this method when the service is no longer used and is being destroyed. Your service should implement this to clean up any resources such as <b>threads</b>, <b>registered listeners</b>, <b>receivers</b>, etc. This is the last call the service receives.
+
+
+# IntentService extends Service
+
+This is a subclass of Service that uses a worker thread to handle all start requests, one at a time. This is the BEST option if you don't require that your service handle multiple requests simultaneously. All you need to do is implement `onHandleIntent()`, which receives the intent for each start request so you can do the background work.</br>
+
+That's all you need:a constructor and an implementation of `onHandleIntent()`
