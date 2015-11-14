@@ -11,5 +11,5 @@ puts markdown.to_html
 ```
 
 ## Links
-Visit GitHub!](https://www.github.com)
+https://www.github.com
 
