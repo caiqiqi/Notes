@@ -1,6 +1,7 @@
 ActivityThread::main() ->
 ...
-Looper.prepareMainLooper();
+Looper.prepareMainLooper();    //这是在ActivityThread里的特殊的创建Looper的方法，而通常的为为当前线程创建Looper的方法是Looper.prepare()
+//用于在主线程中准备Looper的方法prepareMainLooper()与直接的通用的prepare()的特殊之处在于它将刚放进去的当前线程的Looper对象赋给了sMainLooper，即主线程的Looper对象
 ```java
 public static void prepareMainLooper() {
         prepare(false);    // sThreadLocal.set(new Looper(quitAllowed));
@@ -11,7 +12,23 @@ public static void prepareMainLooper() {
             sMainLooper = myLooper();
         }
     }
-	
+
+     /** Initialize the current thread as a looper.
+      * This gives you a chance to create handlers that then reference
+      * this looper, before actually starting the loop. Be sure to call
+      * {@link #loop()} after calling this method, and end it by calling
+      * {@link #quit()}.
+      */
+    public static void prepare() {
+        prepare(true);
+    }
+
+    private static void prepare(boolean quitAllowed) {
+        if (sThreadLocal.get() != null) {
+            throw new RuntimeException("Only one Looper may be created per thread");
+        }
+        sThreadLocal.set(new Looper(quitAllowed));
+    }
 /**
 * Return the Looper object associated with the current thread.  Returns
 * null if the calling thread is not associated with a Looper.
