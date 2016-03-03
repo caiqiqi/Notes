@@ -2,12 +2,12 @@
 
 ## 服务端
 
-- MyServer----ServerSocket监听的主类
-- ServerThread----负责处理每个Socket通信的线程类
+- MyServer.java----ServerSocket监听的主类
+- ServerThread.java----负责处理每个Socket通信的线程类
 
 ### MyServer----ServerSocket监听的主类
 
-```
+```java
 public class MyServer{
   //定义所有保存Socket的ArrayList
   public static ArrayList<Socket> socketList = new ArrayList <Socket>();
