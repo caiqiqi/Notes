@@ -5,8 +5,8 @@
 - stay positive(自信自己能figure out what is happening).
 - be OK with uncertainty
 
-**Requirement for the final exam** </br>
-Recignize situations(就是给你一段情景你要能识别是属于上面三种的哪一种)
+*Requirement for the final exam* </br>
+Recognize situations(就是给你一段情景你要能识别是属于上面三种的哪一种)
 
 ## Bloom' Taxonomy
 | |
@@ -18,7 +18,7 @@ Recignize situations(就是给你一段情景你要能识别是属于上面三�
 | Understanding|
 | Remembering|
 
-**Requirement for the final exam** </br>
+*Requirement for the final exam* </br>
 自己想象一个情景，将其分为6层。
 
 ## Reliable Research
@@ -28,6 +28,9 @@ Recignize situations(就是给你一段情景你要能识别是属于上面三�
 - P : Perspectices 观点是否有偏见
 - S : Support 信息来源是否可靠
 
+*Requirement for the final exam* </br>
+给你一篇文章，给这篇文章的这四个方面打分(1~5分)
+
 ## Socratic Questions
 
 1. Clarification of Concepts
@@ -35,3 +38,6 @@ Recignize situations(就是给你一段情景你要能识别是属于上面三�
 3. Examing reasons and Evidence(作者怎么搜集信息的，这些信息是否对主题相关)
 4. Questions, Viewpoints(是否有偏见？) and Perspectives
 5. Probing(探究) Implications and Consequnces(对未来的展望)
+
+*Requirement for the final exam* </br>
+给你一篇文章，要能提三个Socratic Questions
