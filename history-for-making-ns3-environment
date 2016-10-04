@@ -1,0 +1,99 @@
+  144  mkdir workspace
+  145  cd workspace
+  146  hg clone http://code.nsnam.org/bake
+  147  ls
+  148  cd bake
+  149  ls
+  150  export BAKE_HOME=`pwd`
+  151  export PATH=$PATH:$BAKE_HOME:$BAKE_HOME/build/bin
+  152  export PYTHONPATH=$PYTHONPATH:$BAKE_HOME:$BAKE_HOME/build/lib
+  153  ./bake.py configure -e ns-3.25
+  154  ./bake.py check
+  155  cd
+  156  sudo apt-get install cvs
+  157  sudo apt-get install autoconf
+  158  sudo apt-get install 7zip unrar
+  159  apt-get search 7z
+  160  man apt-get
+  161  sudo apt-get install p7zip-full unrar
+  162  history|grep apt-get
+  163  ./bake.py check
+  164  sudo apt-get install unzip
+  165  ./bake.py check
+  166  ./bake.py download
+  167  ls
+  168  ping www.baidu.com
+  169  ./bake.py download
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd bake
+  174  ls
+  175  vi bake.py
+  176  cd source
+  177  ls
+  178  cd ns-3.25
+  179  ls
+  180  cd ..
+  181  ls
+  182  cd ..
+  183  ls
+  184  cd source
+  185  ls
+  186  cd ns-3.25
+  187  hg clone http://code.nsnam.org/jpelkey3/openflow
+  188  cd openflow
+  189  ls
+  190  ./waf build
+  191  ./waf configure
+  192  ./waf build
+  193  cd ..
+  194  pwd
+  195  ./waf configure --enable-examples --enable-tests --enable-mpi --force-planetlab --with-openflow='/home/cqq/workspace/bake/source/ns-3.25'
+  196  cd ..
+  197  ls
+  198  cd ns-3.25
+  199  rm -rf openflow
+  200  cd ..
+  201  ls
+  202  hg clone http://code.nsnam.org/jpelkey3/openflow
+  203  cd openflow
+  204  ls
+  205  ./waf configure
+  206  ./waf build
+  207  cd ..
+  208  cd -
+  209  pwd
+  210  cd ../ns-3.25
+  211  ./waf configure --enable-examples --enable-tests --enable-mpi --force-planetlab --with-openflow=/home/cqq/workspace/bake/source/openflow
+  212  ./waf build
+  213  pwd
+  214  cd repos
+  215  ls
+  216  cd ns-3-allinone
+  217  ls
+  218  pwd
+  219  cd ../..
+  220  cd ..
+  221  cd workspace
+  222  ls
+  223  cd bake
+  224  ls
+  225  cd source
+  226  ls
+  227  pwd
+  228  watch free -h
+  229  pwd
+  230  lsb_release -a
+  231  pwd
+  232  vi ~/.zshrc
+  233  source ~/.zshrc
+  234  cd $NS3
+  235  pwd
+  236  source ~/.zshrc
+  237  cd $NS3
+  238  ifconfig
+  239  echo $NS3
+  240  ls scratch
+  241  ./waf --run goal-topo-for-dev.cc
+  242  ./waf --run goal-topo-for-dev
