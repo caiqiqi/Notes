@@ -1,0 +1,3301 @@
+: 1474550541:0;vi ~/.zshrc
+: 1474550557:0;cd $ZSH
+: 1474550559:0;ls
+: 1474550560:0;cd themes
+: 1474550561:0;ls
+: 1474550576:0;vi robbyrussell.zsh-theme
+: 1474550680:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1474550685:0;cd 
+: 1474550688:0;vi ~/.zshrc
+: 1474550714:0;sudo apt-get install vim
+: 1474550820:0;history
+: 1474550834:0;vi ~/.bash_history
+: 1474550877:0;vi ~/.zsh_history
+: 1474550890:0;cd /home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1474550891:0;ls
+: 1474550899:0;cd ns-3.24
+: 1474550902:0;ls
+: 1474550905:0;pwd
+: 1474550925:0;vi ~/.zshrc
+: 1474550957:0;source ~/.zshrc
+: 1474550971:0;date
+: 1474550999:0;timezone
+: 1474551010:0;sudo tzconfig
+: 1474551024:0;sudo dpkg-reconfigure tzdata
+: 1474551034:0;date
+: 1474551091:0;cat $NS3
+: 1474551110:0;ls scratch
+: 1474551119:0;vi scratch-simulator.cc
+: 1474551128:0;vi scratch/scratch-simulator.cc
+: 1474551146:0;vi scratch/openflow-switch.cc
+: 1474551166:0;./waf --run openflow-switch
+: 1474551240:0;hg clone http://code.nsnam.org/openflow  
+: 1474551284:0;source ~/.zshrc
+: 1474551296:0;vi /etc/resolv.conf
+: 1474551316:0;ping www.baiduc.com
+: 1474551350:0;hg clone http://code.nsnam.org/openflow  
+: 1474551375:0;cd $NS3
+: 1474551376:0;ls
+: 1474551384:0;pwd
+: 1474551391:0;cd ..
+: 1474551392:0;ls
+: 1474551399:0;cd ..
+: 1474551400:0;ls
+: 1474551407:0;cd ..
+: 1474551408:0;ls
+: 1474551420:0;cd -3
+: 1474551427:0;ls
+: 1474551549:0;hg clone http://code.nsnam.org/openflow  
+: 1474551797:0;clear
+: 1474551803:0;ping www.baidu.con
+: 1474551812:0;ifconfig
+: 1474551843:0;ping www.baidu.com
+: 1474551853:0;vi /etc/resolv.conf
+: 1474551865:0;hg clone http://code.nsnam.org/openflow  
+: 1474551894:0;source ~/.zshrc
+: 1474551897:0;cd openflow
+: 1474551905:0;./waf configure
+: 1474551910:0;./waf build
+: 1474551943:0;ls
+: 1474551959:0;cd lib
+: 1474551960:0;ls
+: 1474551969:0;cd ..
+: 1474552001:0;pwd
+: 1474552013:0;./waf configure --enable-examples --enable-tests --enable-mpi --with-openflow=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13/ns-3.24/openflow
+: 1474552041:0;cd $NS3
+: 1474552147:0;cat ~/.bash_history|grep -i ofswitch
+: 1474552172:0;./waf configure --enable-examples --enable-tests --enable-mpi --with-openflow=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13/ns-3.24/openflow --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1474552300:0;cd ../scratch
+: 1474552301:0;ls
+: 1474552311:0;./waf openflow-switch
+: 1474552319:0;./waf --run openflow-switch
+: 1474552343:0;./waf
+: 1474552449:0;./waf configure --enable-examples --enable-tests --enable-mpi --with-openflow=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13/ns-3.24/openflow
+: 1474552459:0;./waf
+: 1474553122:0;./waf --run openflow-switch
+: 1474553283:0;ls
+: 1474553308:0;vi src/netanim/wscript
+: 1474557086:0;ping www.baidu.com
+: 1474557916:0;cat /proc/cpuinfo
+: 1474563971:0;vim --version
+: 1474564075:0;vi ~/.zshrc
+: 1474564110:0;source  ~/.zshrc
+: 1474564120:0;ls -aFh
+: 1474564126:0;ls -alFh
+: 1474564130:0;vi ~/.zshrc
+: 1474564142:0;source ~/.zshrc
+: 1474564144:0;ll
+: 1474564180:0;pwd
+: 1474565877:0;vi --version
+: 1474565892:0;which vi
+: 1474565894:0;which vim
+: 1474565902:0;ll `which vi`
+: 1474565905:0;ll `which vim`
+: 1474565933:0;file /etc/alternatives/vi
+: 1474565953:0;file /usr/bin/vim.basic
+: 1474565971:0;file /etc/alternatives/vim
+: 1474566126:0;free -h
+: 1474566305:0;file /usr/bin/vim
+: 1474566502:0;free -h
+: 1474566505:0;df -h
+: 1474627552:0;ifconfig
+: 1474627572:0;sudo apt-get install openssh-server
+: 1474627603:0;ping www.baidu.com
+: 1474627798:0;ps aux|grep ssh
+: 1474627808:0;service ssh status
+: 1474627842:0;ifconfig
+: 1474627917:0;pwd
+: 1474627953:0;ls
+: 1474627980:0;./waf --run goal-topo-for-dev
+: 1474630514:0;vi scratch-simulator.cc
+: 1474630621:0;ls
+: 1474630647:0;mv openflow-switch.cc openflow-switch.cc.back
+: 1474630667:0;mv goal-topo-for-dev.cc goal-topo-for-dev.cc.back
+: 1474630668:0;ls
+: 1474630683:0;./waf --run scratch-simulator
+: 1474630829:0;vi scratch-simulator.cc
+: 1474630849:0;./waf --run scratch-simulator
+: 1474630985:0;vi scratch-simulator.cc
+: 1474631964:0;./waf --run scratch-simulator
+: 1474632040:0;ll
+: 1474632042:0;date
+: 1474632063:0;mv scratch-simulator.cc scratch-simulator.cc.back
+: 1474632065:0;ll
+: 1474632081:0;./waf --run goal-topo-for-dev
+: 1474632240:0;ll
+: 1474632241:0;date
+: 1474632250:0;./waf --run goal-topo-for-dev
+: 1474632399:0;pwd
+: 1474632410:0;cd /home/cqq/repos/ns-3-allinone
+: 1474632411:0;ls
+: 1474632416:0;cd ns-3-dev
+: 1474632417:0;ls
+: 1474632448:0;hg clone http://code.nsnam.org/jpelkey3/openflow
+: 1474632556:0;ping www.baidu.com
+: 1474632565:0;ls
+: 1474632570:0;hg clone http://code.nsnam.org/jpelkey3/openflow
+: 1474632586:0;cd openflow
+: 1474632590:0;./waf configure
+: 1474632595:0;./waf build
+: 1474632611:0;cd ..
+: 1474632645:0;cd /home/cqq
+: 1474632646:0;ls
+: 1474632654:0;repos
+: 1474632656:0;cd ns-3-allinone
+: 1474632659:0;cd ns-3-dev
+: 1474632664:0;cd openflow
+: 1474632666:0;pwd
+: 1474632676:0;./waf configure --enable-examples --enable-tests --enable-mpi --with-openflow=/home/cqq/repos/ns-3-allinone/ns-3-dev/openflow
+: 1474632696:0;./waf build
+: 1474632737:0;watch free -h
+: 1474632761:0;df -h
+: 1474632827:0;watch free -h
+: 1474633645:0;./waf build
+: 1474633821:0;cd ..
+: 1474633826:0;ls
+: 1474633832:0;rm -rf ns-3-dev
+: 1474633978:0;./download.py
+: 1474634065:0;ls
+: 1474634067:0;cd ns-3-dev
+: 1474634072:0;hg clone http://code.nsnam.org/jpelkey3/openflow
+: 1474634088:0;cd openflow
+: 1474634092:0;./waf configure
+: 1474634096:0;./waf build
+: 1474634247:0;pwd
+: 1474634251:0;./waf configure
+: 1474634256:0;./waf build
+: 1474634267:0;cd ..
+: 1474634280:0;./waf configure --enable-examples --enable-tests --enable-mpi --with-openflow=/home/cqq/repos/ns-3-allinone/ns-3-dev/openflow
+: 1474634324:0;./waf build
+: 1474635247:0;ls
+: 1474635264:0;./waf configure  --enable-mpi --with-openflow=/home/cqq/repos/ns-3-allinone/ns-3-dev/openflow
+: 1474635274:0;./waf build
+: 1474656117:0;./waf --run goal-topo-for-dev
+: 1474657165:0;ifconfig
+: 1474657191:0;./waf --run goal-topo-for-dev
+: 1474657389:0;./waf build
+: 1474657937:0;sudo shutdown -h now
+: 1477490979:0;clear
+: 1477490991:0;date
+: 1477491167:0;ifconfig
+: 1477491293:0;ls
+: 1477491299:0;cd repos
+: 1477491302:0;ifconfig
+: 1477491308:0;ping www.baidu.com
+: 1477491315:0;ls
+: 1477491361:0;wget https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c -o dirtyc0w.c
+: 1477491376:0;ls
+: 1477491380:0;ll
+: 1477491392:0;cat dirtyc0w.c
+: 1477491404:0;rm dirtyc0w.c
+: 1477491416:0;uname -a
+: 1477491430:0;vi dirtyc0w.c.1
+: 1477491442:0;rm dirtyc0w.c.1
+: 1477491487:0;ls
+: 1477491493:0;vi dirtyc0w.c
+: 1477491509:0;gcc dirtyc0w.c -plthread
+: 1477491515:0;gcc dirtyc0w.c -lpthread
+: 1477491517:0;ls
+: 1477491525:0;rm a.out
+: 1477491526:0;ls
+: 1477491529:0;whoami
+: 1477491536:0;cat /etc/group
+: 1477491540:0;cat /etc/group |grep cqq
+: 1477491574:0;gcc dirtyc0w.c -lpthread -o dirtyc0w
+: 1477491575:0;ls
+: 1477491581:0;file dirtyc0w
+: 1477491590:0;cat /proc/version
+: 1477491617:0;su root -c "echo 0000 >> test"
+: 1477491634:0;sudo passwd root
+: 1477491646:0;su root -c "echo 0000 >> test"
+: 1477491655:0;ls -al test
+: 1477491668:0;./dirtyc0w test "1111"
+: 1477491695:0;cd $NS3
+: 1477491698:0;ls
+: 1477491741:0;pwd
+: 1477491783:0;hg status
+: 1477491798:0;git status
+: 1477491806:0;ls
+: 1477491811:0;rm *.pcap
+: 1477491812:0;ls
+: 1477491822:0;rm FlowMonitor.xml
+: 1477491826:0;rm openflow-switch.tr
+: 1477491827:0;ls
+: 1477491835:0;./waf
+: 1477491846:0;ls scratch
+: 1477491861:0;rm scratch/goal-topo-for-dev.cc
+: 1477491865:0;rm scratch/goal-topo-for-dev.cc.bak
+: 1477491868:0;ls
+: 1477491871:0;ls scratch
+: 1477491881:0;rm scratch/goal-topo-for-dev.cc.back
+: 1477491897:0;./waf check
+: 1477491915:0;cat test
+: 1477491920:0;ls -alh test
+: 1477491948:0;sudo vi /etc/pa/source.list
+: 1477491955:0;sudo vi /etc/apt/source.list
+: 1477491961:0;sudo vi /etc/apt/sources.list
+: 1477492057:0;sudo apt-get upgrade
+: 1477492261:0;sudo apt-get update
+: 1477492280:0;sudo apt-get upgrade
+: 1477492329:0;history |grep ofswitch13
+: 1477492485:0;cat test
+: 1477492496:0;ls
+: 1477492507:0;./dirtyc0w test "caiqiqi"
+: 1477493015:0;cd $NS3
+: 1477493019:0;./waf configure
+: 1477493038:0;ls
+: 1477493045:0;cd ..
+: 1477493045:0;ls
+: 1477493064:0;cd ..
+: 1477493065:0;ls
+: 1477493074:0;cd ..
+: 1477493076:0;ls
+: 1477493084:0;cd ..
+: 1477493086:0;ls
+: 1477493093:0;cd pybindgen
+: 1477493094:0;ls
+: 1477493108:0;cd pybindgen
+: 1477493109:0;ls
+: 1477493118:0;cd ..
+: 1477493144:0;history |grep "./waf configure"
+: 1477493216:0;ls
+: 1477493220:0;cd pybindgen
+: 1477493221:0;ls
+: 1477493227:0;pwd
+: 1477493235:0;cd $NS3
+: 1477493368:0;./waf configure --enable-examples --enable-tests --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477493407:0;man /usr/bin/valgrind
+: 1477494402:0;pwd
+: 1477494408:0;cd $NS3
+: 1477494420:0;./waf --run 
+: 1477494517:0;cd $NS3
+: 1477494519:0;pwd
+: 1477494532:0;./waf --run examples/wireless/mixed-wireless.py
+: 1477494553:0;./waf --pyrun examples/wireless/mixed-wireless.py
+: 1477494592:0;./waf configure
+: 1477494772:0;cd ..
+: 1477494774:0;cd ../..
+: 1477494776:0;cd ..
+: 1477494777:0;ls
+: 1477494780:0;cd pybindgen
+: 1477494780:0;ls
+: 1477494785:0;sudo python setup.py install
+: 1477494838:0;sudo apt-get install python-pip
+: 1477494859:0;sudo python setup.py install
+: 1477494897:0;pwd
+: 1477494901:0;cd $NS3
+: 1477495318:0;ls
+: 1477495325:0;cd ../../..
+: 1477495328:0;cd ..
+: 1477495340:0;ls
+: 1477495371:0;git clone https://github.com/kohler/click
+: 1477495872:0;git config http.proxy socks5://113.250.158.166:1080
+: 1477495910:0;cd /home/cqq/repos/ns-3-allinone/pybindgen
+: 1477495913:0;git config http.proxy socks5://113.250.158.166:1080
+: 1477495917:0;git config https.proxy socks5://113.250.158.166:1080
+: 1477495919:0;cd -
+: 1477495927:0;git config -l
+: 1477495937:0;git clone https://github.com/kohler/click
+: 1477496172:0;ping 192.168.23.1
+: 1477497296:0;git clone https://github.com/kohler/click
+: 1477497407:0;ping www.baidu.com
+: 1477497411:0;git clone https://github.com/kohler/click
+: 1477497465:0;cd click
+: 1477497468:0;./configure --disable-linuxmodule --enable-nsclick --enable-wifi
+: 1477497480:0;make
+: 1477497810:0;cd $NS3
+: 1477497811:0;ls
+: 1477497826:0;history |grep "./waf configure"
+: 1477497921:0;cd $NS3
+: 1477497921:0;ls
+: 1477497927:0;cd ../../../..
+: 1477497928:0;ls
+: 1477497930:0;cd click
+: 1477497931:0;ls
+: 1477497932:0;pwd
+: 1477497950:0;./waf configure --enable-examples --enable-tests --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477497988:0;cd ..
+: 1477497989:0;ls
+: 1477497991:0;cd pybindgen
+: 1477497992:0;ls
+: 1477498000:0;git status
+: 1477498007:0;git branch
+: 1477498116:0;sudo apt-get install python-dev python-pygraphviz python-kiwi python-pygoocanvas \\
+                     python-gnome2 python-gnomedesktop python-rsvg
+: 1477498134:0;sudo apt-get install python-dev python-pygraphviz python-kiwi python-pygoocanvas \\
+                     python-gnome2  python-rsvg
+: 1477498304:0;sudo apt-get install python-wnck python-rsvg python-gnomekeyring
+: 1477498325:0;./waf configure --enable-examples --enable-tests --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477498388:0;sudo apt-get install ipython
+: 1477498655:0;sudo apt-get install cvs autoconf  unrar p7zip-full
+: 1477498770:0;sudo apt-get install python-sphinx dia python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev ipython libboost-signa\
+ls-dev libboost-filesystem-dev openmpi-bin openmpi-common openmpi-doc libopenmpi-dev
+: 1477498782:0;sudo apt-get install python-sphinx dia python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev ipython libboost-signals-dev libboost-filesystem-dev openmpi-bin openmpi-common openmpi-doc libopenmpi-dev
+: 1477498832:0;sudo python setup.py install
+: 1477498859:0;./waf configure --enable-examples --enable-tests --enable-mpi --force-planetlab --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477499055:0;sudo apt-get install python-dev
+: 1477499067:0;sudo apt-get upgrade
+: 1477499163:0;sudo apt-get install g++-multilib
+: 1477499176:0;apt-get install python-pygccxml
+: 1477499183:0;apt-sudo get install python-pygccxml
+: 1477499188:0;sudo apt-get install python-pygccxml
+: 1477499327:0;which python
+: 1477499329:0;python
+: 1477499347:0;ll /usr/bin |grep python
+: 1477499371:0;/usr/bin/python2.7 ./waf configure
+: 1477499407:0;./waf configure --enable-examples --enable-tests --enable-mpi --force-planetlab --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477499516:0;sudo apt-get install openssh-server
+: 1477499678:0;cd ..
+: 1477499680:0;ls
+: 1477499868:0;locate "pygccxml"
+: 1477500005:0;pwd
+: 1477500012:0;cd $NS3
+: 1477500014:0;ls
+: 1477500015:0;pwd
+: 1477500089:0;cd -
+: 1477500090:0;ls
+: 1477500094:0;cd bake
+: 1477500095:0;ls
+: 1477500120:0;./bake.py check
+: 1477500159:0;./bake.py download
+: 1477500325:0;cd $NS3
+: 1477500329:0;ls
+: 1477500342:0;cd ../../../../..
+: 1477500343:0;ls
+: 1477500348:0;cd ns-3-allinone
+: 1477500351:0;ls
+: 1477500359:0;git clone https://github.com/gccxml/gccxml
+: 1477500482:0;ls
+: 1477500485:0;cd gccxml
+: 1477500499:0;git lg
+: 1477500502:0;git log
+: 1477500544:0;ls
+: 1477500566:0;mkdir gccxml-build
+: 1477500579:0;cd gccxml-build
+: 1477500604:0;git diff master 3afa
+: 1477500618:0;cmake ../gccxml
+: 1477500631:0;pwd
+: 1477500680:0;cd ..
+: 1477500681:0;ls
+: 1477500687:0;rmdir gccxml-build
+: 1477500689:0;git status
+: 1477500692:0;cd ..
+: 1477500693:0;ls
+: 1477500707:0;mkdir gccxml-build
+: 1477500713:0;cd gccxml-build
+: 1477500721:0;cmake ../gccxml
+: 1477500824:0;make
+: 1477500924:0;make install
+: 1477500937:0;cd ..
+: 1477500939:0;ls
+: 1477500941:0;cd gccxml
+: 1477500959:0;git checkout 3afa8ba
+: 1477500970:0;cd ../gccxml-build
+: 1477500972:0;ls
+: 1477500974:0;rm *
+: 1477500988:0;rm -r *
+: 1477500991:0;ls
+: 1477501000:0;cmake ../gccxml
+: 1477501032:0;make
+: 1477501216:0;ls
+: 1477501219:0;rm -r *
+: 1477501223:0;ls
+: 1477501229:0;cd ..
+: 1477501235:0;rmdir gccxml-build
+: 1477501236:0;ls
+: 1477501240:0;cd gccxml
+: 1477501253:0;cd gccxml-build
+: 1477501266:0;cmake ../gccxml
+: 1477501282:0;cmake ../gccxml/
+: 1477501288:0;pwd
+: 1477501300:0;cmake ../
+: 1477501325:0;make
+: 1477501432:0;cd ..
+: 1477501434:0;ls
+: 1477501450:0;git clone https://github.com/gccxml/pygccxml
+: 1477501481:0;cd pygccxml
+: 1477501482:0;ls
+: 1477501485:0;git branch
+: 1477501507:0;sudo python setup.py install
+: 1477501542:0;cd ..
+: 1477501542:0;ls
+: 1477501546:0;cd pybindgen
+: 1477501548:0;ls
+: 1477501553:0;sudo python setup.py install
+: 1477501558:0;./waf configure --enable-examples --enable-tests --enable-mpi --force-planetlab --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477501622:0;git status
+: 1477501625:0;git log
+: 1477502011:0;git checkout 0e4e3bc
+: 1477502017:0;ls
+: 1477502026:0;sudo python setup.py install
+: 1477502045:0;./waf configure --enable-examples --enable-tests --enable-mpi --force-planetlab --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477502362:0;pwd
+: 1477502364:0;ls
+: 1477502369:0;cd  bindings/python/wscript
+: 1477502373:0;vi  bindings/python/wscript
+: 1477502450:0;git remote -v
+: 1477502565:0;vi  bindings/python/wscript
+: 1477502630:0;./waf configure --enable-examples --enable-tests --enable-mpi --force-planetlab --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477502677:0;git log
+: 1477502913:0;cd Desktop
+: 1477502914:0;ls
+: 1477502968:0;ifconfig|grep 192
+: 1477503050:0;nc 192.168.170.1 4444 < "Screenshot from 2016-10-26 10-27-54.png"
+: 1477503483:0;nc 192.168.170.1 4444 < "Screenshot from 2016-10-26 10-37-05.png"
+: 1477503695:0;vi  bindings/python/wscript
+: 1477503899:0;nc 192.168.170.1 4444 < "Screenshot from 2016-10-26 10-43-27.png"
+: 1477504455:0;cd ..
+: 1477504456:0;ls
+: 1477504462:0;cd pygccxml
+: 1477504465:0;git log
+: 1477504472:0;git chekcout b040a46352e4d5
+: 1477504477:0;git checkcout b040a46352e4d5
+: 1477504483:0;git checkout b040a46352e4d5
+: 1477504512:0;cd ..
+: 1477504513:0;ls
+: 1477504518:0;cd gccxml
+: 1477504525:0;git log
+: 1477504546:0;git checkout b040a46352e4d5
+: 1477504553:0;ls
+: 1477504639:0;ll gccxml-build
+: 1477504646:0;rm -rf gccxml-build
+: 1477504649:0;cd ..
+: 1477504650:0;ls
+: 1477504661:0;mkdir gccxml-build
+: 1477504668:0;cd gccxml-build
+: 1477504676:0;sudo apt-get install g++-multilib
+: 1477504694:0;cmake ../gccxml
+: 1477504718:0;make
+: 1477504842:0;vi /home/cqq/repos/ns-3-allinone/gccxml/GCC/gcc/toplev.c
+: 1477504912:0;vi /home/cqq/repos/ns-3-allinone/gccxml/GCC/gcc/toplev.c:
+: 1477504921:0;vi /home/cqq/repos/ns-3-allinone/gccxml/GCC/gcc/toplev.c
+: 1477504951:0;make
+: 1477505032:0;rm -r *
+: 1477505035:0;ls
+: 1477505040:0;cmake ../gccxml
+: 1477505075:0;make
+: 1477505232:0;vi /home/cqq/repos/ns-3-allinone/gccxml/GCC/gcc/toplev.c
+: 1477505322:0;cmake ../gccxml
+: 1477505330:0;make
+: 1477505466:0;nc 192.168.170.1 4444 < "Screenshot from 2016-10-26 11-00-18.png"
+: 1477571082:0;cd $NS3
+: 1477571088:0;git status
+: 1477571094:0;git log
+: 1477571106:0;ls
+: 1477571113:0;ll scratch
+: 1477571226:0;find . -name "start-ofswitch13.cc"
+: 1477571258:0;./waf build
+: 1477571279:0;sudo apt-get install htop
+: 1477571352:0;htop
+: 1477571382:0;f
+: 1477571388:0;htop
+: 1477571401:0;ifconfig|grep 192
+: 1477571932:0;ls
+: 1477571936:0;cd ..
+: 1477571938:0;ls
+: 1477571965:0;find . -name "start-ofswitch13.cc"
+: 1477571999:0;ls
+: 1477572000:0;cd ..
+: 1477572001:0;ls
+: 1477572007:0;cd ..
+: 1477572008:0;ls
+: 1477572013:0;cd src
+: 1477572015:0;ls
+: 1477572021:0;cd ..
+: 1477572026:0;pwd
+: 1477572035:0;vi ~/.zshrc
+: 1477572104:0;source ~/.zshrc
+: 1477572111:0;ls
+: 1477572133:0;cd $NS3
+: 1477572134:0;ls
+: 1477572148:0;cd src
+: 1477572148:0;ls
+: 1477572157:0;cd ..
+: 1477572187:0;pwd
+: 1477572219:0;cd ..
+: 1477572534:0;vi ~/.zsh
+: 1477572538:0;vi ~/.zshrc
+: 1477572544:0;pwd
+: 1477572548:0;vi ~/.zshrc
+: 1477572769:0;htop
+: 1477572789:0;cd $NS3
+: 1477572797:0;./waf build
+: 1477573460:0;./waf configure --enable-examples --enable-tests --enable-mpi  --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477573475:0;./waf build
+: 1477574510:0;ls
+: 1477574517:0;cd examples
+: 1477574517:0;ls
+: 1477574528:0;cd ..
+: 1477574530:0;ls
+: 1477574556:0;find . -name "chain-ofswitch13.cc"
+: 1477574597:0;cd ./ns-3.24/src/ofswitch13/examples
+: 1477574600:0;ls
+: 1477574605:0;pwd
+: 1477574617:0;sudo apt-get install tree
+: 1477574624:0;htop
+: 1477574627:0;tree
+: 1477574739:0;ls
+: 1477574752:0;pwd
+: 1477574759:0;vi ~/.zshrc
+: 1477574779:0;source ~/.zshrc
+: 1477574797:0;cp external-controller.cc $NS3/scratch
+: 1477574800:0;cd $NS3
+: 1477574801:0;ls
+: 1477574804:0;ll scratch
+: 1477574812:0;rm scratch/openflow-switch.cc.back
+: 1477574827:0;./waf --run external-controller
+: 1477575265:0;sudo ./waf --run external-controller
+: 1477575330:0;cd $of-examples
+: 1477575337:0;cd $ofswitch-examples
+: 1477575346:0;cd $ofswitch
+: 1477575348:0;pwd
+: 1477575350:0;ls
+: 1477575358:0;vi ~/.zshrc
+: 1477575368:0;cd $ofexamples
+: 1477575371:0;ls
+: 1477575381:0;echo $ofexamples
+: 1477575387:0;vi ~/.zshrc
+: 1477575398:0;source ~/.zshrc
+: 1477575400:0;echo $ofexamples
+: 1477575403:0;cd $ofexamples
+: 1477575405:0;ls
+: 1477575412:0;gedit external-controller.cc
+: 1477575418:0;gedit external-controller.cc &
+: 1477576262:0;ls
+: 1477576358:0;nc 192.168.170.1 4444 < *.cc
+: 1477576460:0;nc 192.168.170.1 4444 < chain-ofswitch13.cc
+: 1477576474:0;nc 192.168.170.1 4444 < external-controller.cc
+: 1477576486:0;nc 192.168.170.1 4444 < star-ofswitch13.cc
+: 1477576512:0;nc 192.168.170.1 4444 < dual-controller.cc
+: 1477576524:0;nc 192.168.170.1 4444 < star-ofswitch13.cc
+: 1477576618:0;nc 192.168.170.1 4444 < dual-controller.cc
+: 1477576628:0;nc 192.168.170.1 4444 < external-controller.cc
+: 1477576638:0;nc 192.168.170.1 4444 < chain-ofswitch13.cc
+: 1477660249:0;clear
+: 1477660254:0;htop
+: 1477660265:0;ifconfig|grep 192
+: 1477660318:0;cd $NS3
+: 1477660320:0;ls
+: 1477660321:0;cd scratch
+: 1477660323:0;pwd
+: 1477660352:0;ps aux|grep ssh
+: 1477660358:0;ls
+: 1477660359:0;date
+: 1477660363:0;ll
+: 1477660380:0;mv external-controller.cc external-controller.cc.bak
+: 1477660382:0;ll
+: 1477660406:0;./waf --run SDN-handover
+: 1477660458:0;htop
+: 1477660531:0;./waf --run SDN-handover
+: 1477660665:0;pwd
+: 1477660759:0;cd
+: 1477660760:0;ls
+: 1477660769:0;sudo apt-get update
+: 1477661012:0;ls
+: 1477661016:0;hg clone http://code.nsnam.org/bake
+: 1477661038:0;export BAKE_HOME=`pwd`/bake~
+: 1477661046:0;export PATH=$PATH:$BAKE_HOME
+: 1477661052:0;export PYTHONPATH=$PYTHONPATH:$BAKE_HOME
+: 1477661067:0;cd bake
+: 1477661068:0;ls
+: 1477661077:0;bake.py check
+: 1477661100:0;echo $PYTHONPATH
+: 1477661131:0;cd 
+: 1477661134:0;export BAKE_HOME=`pwd`/bake
+: 1477661141:0;export PATH=$PATH:$BAKE_HOME
+: 1477661147:0;export PYTHONPATH=$PYTHONPATH:$BAKE_HOME
+: 1477661148:0;cd bak
+: 1477661152:0;cd bake
+: 1477661159:0;bake.py check
+: 1477661275:0;./bake.py configure -e ns-3.25
+: 1477661286:0;./bake.py show
+: 1477661345:0;sudo apt-get install gccxml-ns3
+: 1477661363:0;sudo apt-get install update
+: 1477661372:0;ping www.baidu.com
+: 1477661383:0;sudo apt-get  update
+: 1477661437:0;sudo apt-get  upgrade
+: 1477661542:0;sudo pip install setuptools
+: 1477661557:0;sudo pip install setuptools --upgrade
+: 1477661587:0;./bake.py deploy
+: 1477662241:0;cd ..
+: 1477662242:0;ls
+: 1477662248:0;cd ..
+: 1477662250:0;ls
+: 1477662254:0;cd ..
+: 1477662255:0;ls
+: 1477662259:0;cd ..
+: 1477662259:0;ls
+: 1477662261:0;cd ..
+: 1477662262:0;ls
+: 1477662265:0;cd pyth
+: 1477662270:0;cd pybindgen
+: 1477662302:0;cd ..
+: 1477662304:0;cd net
+: 1477662307:0;cd netanim
+: 1477662308:0;ls
+: 1477662318:0;./netanim version
+: 1477662322:0;./netanim --version
+: 1477662338:0;cd ..
+: 1477662340:0;ls
+: 1477662347:0;pwd
+: 1477662360:0;cp -r pybindgen /home/cqq/bake/
+: 1477662363:0;ls
+: 1477662375:0;./bake.py deploy
+: 1477662599:0;ls
+: 1477662607:0;echo $http_proxy
+: 1477662644:0;ls
+: 1477662647:0;cd pybindgen
+: 1477662648:0;ls
+: 1477662678:0;cd ..
+: 1477662683:0;bake.py download
+: 1477662931:0;ifconfig
+: 1477662940:0;ping 172.23.22.170
+: 1477662966:0;sudo passwd cqq
+: 1477662982:0;ifconfig|grep 172
+: 1477662997:0;ping 172.18.125.204
+: 1477663306:0;export http_proxy=socks5://172.18.125.204:1080
+: 1477663310:0;export https_proxy=socks5://172.18.125.204:1080
+: 1477663333:0;git clone https://github.com/caiqiqi/Notes
+: 1477663345:0;ls
+: 1477663365:0;export http_proxy=socks5://172.18.125.204:1080
+: 1477663369:0;export https_proxy=socks5://172.18.125.204:1080
+: 1477663375:0;bake.py download
+: 1477663442:0;ls
+: 1477663454:0;rm -rf pybindgen
+: 1477663457:0;bake.py download
+: 1477663504:0;ls
+: 1477663533:0;unset http_proxy
+: 1477663535:0;unset https_proxy
+: 1477663540:0;unset http_proxy
+: 1477663542:0;unset https_proxy
+: 1477663576:0;ifconfig
+: 1477663591:0;bake.py download
+: 1477663615:0;ifconfig
+: 1477663638:0;sudo shutdown -r now
+: 1477663653:0;sudo passwd cqq
+: 1477663663:0;echo /etc/shadow
+: 1477663670:0;echo "/etc/shadow"
+: 1477663679:0;vi /etc/shadow
+: 1477663685:0;sudo vi /etc/shadow
+: 1477663701:0;sudo shutdown -r now
+: 1477663811:0;ping www.baidu.com
+: 1477663815:0;ifconfig
+: 1477663847:0;ping www.baidu.com
+: 1477663872:0;ls
+: 1477663877:0;cd bake
+: 1477663878:0;ls
+: 1477663881:0;cd source
+: 1477663881:0;ls
+: 1477663894:0;cd $NS3
+: 1477663894:0;ls
+: 1477663910:0;cd 
+: 1477663911:0;ls
+: 1477663913:0;cd bake
+: 1477663914:0;ls
+: 1477663918:0;cd source
+: 1477663918:0;ls
+: 1477663935:0;cd $NS3
+: 1477663936:0;ls
+: 1477663941:0;pwd
+: 1477663953:0;cd /home/cqq/repos/ns-3-allinone
+: 1477663954:0;ls
+: 1477663964:0;pwd
+: 1477663969:0;cp -r pybindgen /home/cqq/bake/source
+: 1477663972:0;ls
+: 1477663976:0;cd pybindgen
+: 1477663979:0;cd ..
+: 1477663983:0;ls
+: 1477663989:0;./bake.py download
+: 1477664165:0;./bake.py build
+: 1477664176:0;htop
+: 1477664604:0;sudo apt-get install build-essential gcc g++ python git mercurial unzip cmake
+: 1477664613:0;sudo apt autoremove
+: 1477664706:0;sudo apt-get install libpcap-dev libxerces-c2-dev libpcre3-dev flex bison
+: 1477664725:0;sudo apt-get install libpcap-dev  libpcre3-dev flex bison
+: 1477664800:0;sudo apt-get install pkg-config autoconf libtool libboost-dev
+: 1477664823:0;ls
+: 1477664825:0;cd bake
+: 1477664859:0;cd $NS3
+: 1477664860:0;ls
+: 1477664862:0;pwd
+: 1477664875:0;cd -
+: 1477664886:0;wget https://bitbucket.org/ljerezchaves/ofswitch13-module/downloads/nbeesrc.zip
+: 1477664904:0;ls
+: 1477664908:0;unzip nbeesrc.zip
+: 1477664915:0;cd netbee/src
+: 1477664917:0;cmake
+: 1477664921:0;cmake .
+: 1477664927:0;make
+: 1477664986:0;sudo cp ../bin/libn*.so /usr/local/lib
+: 1477664993:0;sudo ldconfig
+: 1477664999:0;sudo cp -R ../include/* /usr/include/
+: 1477665033:0;git clone https://github.com/ljerezchaves/ofsoftswitch13
+: 1477665045:0;cd -
+: 1477665048:0;cd ..
+: 1477665056:0;git branch
+: 1477665101:0;ls
+: 1477665109:0;git clone https://github.com/ljerezchaves/ofsoftswitch13
+: 1477665146:0;ping www.baidu.com
+: 1477665231:0;ls
+: 1477665234:0;cd $NS3
+: 1477665235:0;ls
+: 1477665298:0;./waf --run SDN-handover
+: 1477728799:0;ifconfig|grep 192
+: 1477728820:0;./waf --run SDN-handover
+: 1477730010:0;ls
+: 1477730112:0;mkdir SDN-handover
+: 1477730121:0;./waf --run SDN-handover
+: 1477730665:0;./waf --run SDN-handover --vis
+: 1477730908:0;pwd
+: 1477730917:0;cd $NS3
+: 1477730918:0;ls
+: 1477730927:0;cd src/visualizer/visualizer
+: 1477730928:0;ls
+: 1477732806:0;git status
+: 1477732814:0;cd ../../..
+: 1477732817:0;cd ..
+: 1477732826:0;cd ofsoftswitch13
+: 1477732829:0;git status
+: 1477732845:0;ls
+: 1477732879:0;ll .gitignore
+: 1477732887:0;vi .gitignore
+: 1477732916:0;git status
+: 1477732947:0;git commit -a -m "update .gitignore"
+: 1477732955:0;git remote -v
+: 1477732981:0;git config --global user.email "564933437@qq/com"
+: 1477732992:0;git config --global user.email "564933437@qq.com"
+: 1477733005:0;git config --global user.name "caiqiqi"
+: 1477733010:0;git commit -a -m "update .gitignore"
+: 1477733014:0;git status
+: 1477733040:0;git checkout -b v-cqq-10-29
+: 1477733046:0;cd ns-3.24
+: 1477733050:0;git status
+: 1477733061:0;cd ..
+: 1477733070:0;git rm -r --cached .
+: 1477733073:0;git status
+: 1477733079:0;git add --all
+: 1477733082:0;git status
+: 1477733090:0;cd ns-3.24
+: 1477733094:0;git status
+: 1477733102:0;cd src
+: 1477733105:0;cd ..
+: 1477733228:0;cd src/visualizer/visualizer
+: 1477733229:0;ls
+: 1477733259:0;git init
+: 1477733283:0;git remote add origin https://github.com/caiqiqi/PyViz-visualizer
+: 1477733287:0;git status
+: 1477733322:0;git add --all;git commit -m "init"
+: 1477733325:0;git status
+: 1477733426:0;git pull origin branch-for-goal-topo
+: 1477733459:0;git status
+: 1477733476:0;vi base.py
+: 1477733532:0;rm base.py core.py
+: 1477733537:0;git pull origin branch-for-goal-topo
+: 1477733544:0;git status
+: 1477733560:0;git rm --cached base.py core.py
+: 1477733565:0;git status
+: 1477733572:0;git pull origin branch-for-goal-topo
+: 1477733589:0;git commit -a -m "deleted base.py, core.py"
+: 1477733593:0;git pull origin branch-for-goal-topo
+: 1477733603:0;ls
+: 1477733609:0;git branch
+: 1477733621:0;git pull origin branch-for-goal-topo branch-for-goal-topo
+: 1477733630:0;git branch
+: 1477733643:0;git checkout -b branch-for-goal-topo
+: 1477733649:0;vi core.pyc
+: 1477733655:0;vi .gitignore
+: 1477733660:0;vi core.py
+: 1477733664:0;ls
+: 1477733686:0;git pull origin branch-for-goal-topo branch-for-goal-topo
+: 1477733694:0;ls
+: 1477733705:0;vi .gitignore
+: 1477733737:0;git rm -r --cached .
+: 1477733740:0;rm *
+: 1477733742:0;ls
+: 1477733754:0;git status
+: 1477733769:0;git pull origin branch-for-goal-topo branch-for-goal-topo
+: 1477733794:0;git branch
+: 1477733801:0;ls
+: 1477733824:0;rm -rf .git/
+: 1477733854:0;git clone https://github.com/caiqiqi/PyViz-visualizer
+: 1477733882:0;ls
+: 1477733885:0;cd ..
+: 1477733888:0;ls
+: 1477733907:0;mv visualizer visualizer.bak
+: 1477733909:0;ls
+: 1477733930:0;git clone https://github.com/caiqiqi/PyViz-visualizer visualizer
+: 1477733941:0;ls
+: 1477733943:0;cd visualizer
+: 1477733943:0;ls
+: 1477733952:0;git status
+: 1477733967:0;vi .gitignore
+: 1477733988:0;cp -r ../visualizer.bak/* ./
+: 1477733989:0;ls
+: 1477733999:0;git status
+: 1477734021:0;git checkout branch-for-goal-topo
+: 1477734025:0;ls
+: 1477734029:0;git status
+: 1477734042:0;./waf --run SDN-handover --vis
+: 1477734275:0;ls
+: 1477734285:0;gedit core.py &
+: 1477734524:0;./waf --run SDN-handover --vis
+: 1477735371:0;git status
+: 1477735386:0;git commit -a -m "update core.py"
+: 1477735406:0;git checkout -b branch-for-ofswitch13
+: 1477735426:0;git push origin branch-for-ofswitch13
+: 1477738132:0;./waf --run SDN-handover --vis
+: 1477738723:0;./waf --run SDN-handover
+: 1477738764:0;ls
+: 1477738779:0;cd $NS3
+: 1477738784:0;cd SDN-handover
+: 1477738785:0;ls
+: 1477738787:0;date
+: 1477738788:0;ll
+: 1477738814:0;tcpdump SDN-handover-ap3-sta1-wifi-14-0.pcap
+: 1477738837:0;vi ~/.zshrc
+: 1477738873:0;source ~/.zshrc
+: 1477738875:0;tcpdump SDN-handover-ap3-sta1-wifi-14-0.pcap
+: 1477738941:0;tcpdump SDN-handover-ap3-wifi-4-1.pcap
+: 1477739018:0;./waf --run SDN-handover
+: 1477739039:0;date
+: 1477739041:0;ll
+: 1477739067:0;sudo apt-get install wireshark
+: 1477739208:0;wireshark SDN-handover-ap3-wifi-4-1.pcap
+: 1477739273:0;wireshark SDN-handover-ap3-sta1-wifi-14-0.pcap &
+: 1477741295:0;ls
+: 1477741302:0;cd $NS3
+: 1477741302:0;ls
+: 1477741318:0;ll *.pcap
+: 1477741332:0;source ~/.zshrc
+: 1477741339:0;tcpdump ofCtrl-15-1.pcap
+: 1477741484:0;date
+: 1477741486:0;ll
+: 1477741542:0;vi ~/.zshrc
+: 1477741562:0;cd ofexamples
+: 1477741567:0;cd $ofexamples
+: 1477741574:0;vi ~/.zshrc
+: 1477741617:0;source ~/.zshrc
+: 1477741657:0;ls
+: 1477741672:0;pwd
+: 1477744963:0;./waf --run SDN-handover
+: 1477744984:0;./waf --run SDN-handover --vis
+: 1477746738:0;ll scratch
+: 1477746755:0;./waf --run qos-controller/main
+: 1477746779:0;./waf --run scratch/qos-controller/main
+: 1477746808:0;./waf --run qos-controller
+: 1477759677:0;cd ..
+: 1477759679:0;ls
+: 1477759684:0;cd utilities
+: 1477759685:0;ls
+: 1477759690:0;ll
+: 1477759700:0;file dpctl
+: 1477759715:0;man file
+: 1477759792:0;dpctl
+: 1477759797:0;./dpctl
+: 1477759803:0;./dpctl --help
+: 1477759957:0;ifconfig|grep 192
+: 1477759982:0;cd $NS3
+: 1477759989:0;ls
+: 1477760002:0;cd ..
+: 1477760003:0;ls
+: 1477760008:0;cd utilities
+: 1477760009:0;ls
+: 1477760018:0;./dpctl --help
+: 1477760105:0;cd ..
+: 1477760105:0;ls
+: 1477760111:0;cd udatapath
+: 1477760112:0;ls
+: 1477761347:0;./dpctl  show tcp:127.0.0.1:6634
+: 1477761422:0;dpctl unix:/var/run/s1.sock get-config 
+: 1477761427:0;./dpctl unix:/var/run/s1.sock get-config 
+: 1477771813:0;cd ..
+: 1477771824:0;find . -name "ofswitch13-module.h"
+: 1477771841:0;gedit & ./ns-3.24/build/ns3/ofswitch13-module.h
+: 1477771858:0;gedit ./ns-3.24/build/ns3/ofswitch13-module.h &
+: 1477773650:0;man memcpy
+: 1477777245:0;cd $NS3
+: 1477777256:0;./waf --run qos-controller
+: 1477777354:0;export NS_LOG=QosController
+: 1477777356:0;./waf --run qos-controller
+: 1477777589:0;ls
+: 1477777718:0;cd scratch
+: 1477777719:0;ls
+: 1477777723:0;cd qos-controller
+: 1477777724:0;ls
+: 1477777731:0;cd ../..
+: 1477777749:0;./waf --run qos-controller
+: 1477777886:0;ls
+: 1477777905:0;mkdir qos-controller
+: 1477777914:0;ls
+: 1477777935:0;./waf --run qos-controller
+: 1477777954:0;cd qos-controller
+: 1477777955:0;ls
+: 1477777962:0;cd ..
+: 1477778051:0;./waf --run "qos-controller --verbose=true --trace=true"
+: 1477778143:0;./waf --run "qos-controller --verbose=true --trace=true --simulationTime=5"
+: 1477778175:0;date
+: 1477778183:0;cd qos-controller
+: 1477778184:0;ls
+: 1477778187:0;cd ..
+: 1477778194:0;./waf --run "qos-controller --verbose=true --trace=true --simulationTime=1"
+: 1477838855:0;watch `netstat -aniv`
+: 1477846370:0;ifconfig|grep 192
+: 1477847152:0;cd ..
+: 1477847163:0;./waf --run SDN-handover --vis
+: 1477847371:0;pwd
+: 1477847372:0;ls
+: 1477847374:0;cd ns-3.24
+: 1477847375:0;ls
+: 1477847388:0;ll *.pcap
+: 1477847397:0;date
+: 1477847422:0;ll qos-controller
+: 1477847432:0;rm *.pcap
+: 1477847440:0;ll scratch
+: 1477847452:0;ll scratch/qos-controller
+: 1477847463:0;vi scratch/trad-handover.cc
+: 1477847551:0;vi scratch/SDN-handover.cc
+: 1477847878:0;ll scratch
+: 1477847879:0;date
+: 1477847895:0;./waf --run SDN-handover --vis
+: 1477848069:0;./waf --run trad-handover --vis
+: 1477849406:0;ls
+: 1477849420:0;mkdir trad-handover
+: 1477849429:0;./waf --run trad-handover --vis
+: 1477849557:0;cd trad-handover
+: 1477849557:0;ls
+: 1477849560:0;ll
+: 1477849576:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap &
+: 1477849702:0;./waf --run trad-handover --vis
+: 1477849762:0;./waf --run SDN-handover --vis
+: 1477849820:0;cd SDN-handover
+: 1477849821:0;ll
+: 1477849823:0;date
+: 1477849888:0;tcpdump SDN-handover-ofCtrl-15-1.pcap
+: 1477849903:0;wireshark SDN-handover-ofCtrl-15-1.pcap &
+: 1477849949:0;cd ..
+: 1477849958:0;./waf --run SDN-handover --vis
+: 1477850161:0;ll SDN-handover
+: 1477850299:0;mkdir ChainOFSwitch13
+: 1477850384:0;./waf --run chain-ofswitch13
+: 1477850416:0;cd ChainOFSwitch13
+: 1477850417:0;ls
+: 1477850459:0;cd ..
+: 1477850462:0;./waf --run chain-ofswitch13
+: 1477850478:0;cd ChainOFSwitch13
+: 1477850479:0;ls
+: 1477850495:0;cd ..
+: 1477850508:0;./waf --run chain-ofswitch13 --trace=true
+: 1477850516:0;./waf --run "chain-ofswitch13 --trace=true"
+: 1477850541:0;ll
+: 1477850562:0;ll ChainOFSwitch13
+: 1477850577:0;ls
+: 1477850581:0;ls *.pcap
+: 1477850587:0;ll *.pcap
+: 1477850601:0;tcpdump ofchannel-3-1.pcap
+: 1477850605:0;ll *.pcap
+: 1477850613:0;wireshark ofchannel-3-1.pcap &
+: 1477850987:0;ll *.pcap
+: 1477851003:0;wireshark host-0-0.pcap
+: 1477851058:0;./waf --run qos-controller
+: 1477851064:0;cd ..
+: 1477851072:0;ls
+: 1477851079:0;cd qos-controller
+: 1477851081:0;ls
+: 1477851990:0;cd ..
+: 1477852004:0;./waf --run trad-handover --vis
+: 1477852066:0;cd trad-handover
+: 1477852067:0;ls
+: 1477852068:0;date
+: 1477852069:0;ll
+: 1477852091:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap &
+: 1477852382:0;cd ..
+: 1477852387:0;./waf --run trad-handover --vis
+: 1477852426:0;vi scratch/trad-handover.cc
+: 1477852456:0;./waf --run trad-handover --vis
+: 1477852532:0;cd trad-handover
+: 1477852534:0;ll
+: 1477852535:0;date
+: 1477852549:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap &
+: 1477852711:0;./waf --run trad-handover --vis
+: 1477853225:0;ll
+: 1477853242:0;wireshark trad-handover-ap3-wifi-4-1.pcap
+: 1477853290:0;exit
+: 1477853342:0;ll scratch
+: 1477853343:0;date
+: 1477853355:0;./waf --run trad-handover --vis
+: 1477854338:0;pwd
+: 1477854390:0;./waf --run trad-handover --vis
+: 1477854482:0;ll
+: 1477854484:0;date
+: 1477854498:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap
+: 1477855494:0;ls
+: 1477855498:0;rm *
+: 1477855501:0;ls
+: 1477855504:0;./waf --run trad-handover --vis
+: 1477855575:0;ls
+: 1477855579:0;ll
+: 1477855581:0;date
+: 1477855598:0;rm SDN*.plt
+: 1477855599:0;ll
+: 1477855607:0;rm *.pcap
+: 1477855609:0;ll
+: 1477855626:0;sudo apt-get install gnuplot
+: 1477855662:0;gnuplot *.plt
+: 1477855665:0;ll
+: 1477855674:0;pwd
+: 1477855847:0;cd ..
+: 1477855848:0;ls
+: 1477855853:0;cd SDN-handover
+: 1477855853:0;ls
+: 1477855855:0;ll
+: 1477855856:0;date
+: 1477855863:0;rm * -f
+: 1477855866:0;ls
+: 1477855869:0;./waf --run SDN-handover --vis
+: 1477856089:0;ll
+: 1477856091:0;date
+: 1477856104:0;ll ../
+: 1477856117:0;ll ../*.pcap
+: 1477856125:0;ll
+: 1477856127:0;date
+: 1477856162:0;wireshark SDN-handover-ofCtrl-15-1.pcap 2>/dev/null
+: 1477856212:0;wireshark SDN-handover-ap3-wifi-4-1.pcap 2>/dev/null
+: 1477856314:0;wireshark SDN-handover-ap2-wifi-3-1.pcap 2>/dev/null
+: 1477856393:0;./waf --run trad-handover --vis
+: 1477856475:0;./waf --run SDN-handover --vis
+: 1477857465:0;ll
+: 1477857466:0;date
+: 1477857496:0;wireshark SDN-handover-ap3-sta1-wifi-14-0.pcap 2>/dev/nell
+: 1477857500:0;wireshark SDN-handover-ap3-sta1-wifi-14-0.pcap 2>/dev/null
+: 1477857536:0;vi ../scratch/SDN-handover.cc
+: 1477857556:0;./waf --run SDN-handover --vis
+: 1477857566:0;./waf --run SDN-handover
+: 1477857606:0;ll
+: 1477857607:0;date
+: 1477857614:0;wireshark SDN-handover-ap3-sta1-wifi-14-0.pcap 2>/dev/null
+: 1477857689:0;vi ../scratch/SDN-handover.cc
+: 1477860303:0;ifconfig|grep 192
+: 1477860312:0;./waf --run SDN-handover
+: 1477860379:0;ll
+: 1477860381:0;date
+: 1477860418:0;vi ../../src/ofswitch13/model/ofswitch13-learning-controller.cc
+: 1477860433:0;gedit ../src/ofswitch13/model/ofswitch13-learning-controller.cc 2>/dev/null
+: 1477860460:0;gedit src/ofswitch13/model/ofswitch13-learning-controller.cc 2>/dev/null
+: 1477860519:0;cd ..
+: 1477860520:0;ls
+: 1477860542:0;gedit scratch/qos-controller/qos-controller.cc 2>/dev/null
+: 1477861044:0;ll src/ofswitch13/model/
+: 1477861058:0;ll src/ofswitch13/model/ofswitch13-controller.cc
+: 1477861070:0;gedit src/ofswitch13/model/ofswitch13-controller.cc &
+: 1477905343:0;gedit src/ofswitch13/model/ofswitch13-controller.h &
+: 1477905560:0;gedit src/ofswitch13/model/ofswitch13-learning-controller.cc 2>/dev/null &
+: 1477905575:0;gedit src/ofswitch13/model/ofswitch13-learning-controller.h 2>/dev/null &
+: 1477914273:0;/dev/tcp
+: 1477914293:0;which tcp
+: 1477937792:0;./waf --run external-controller
+: 1477938264:0;gedit src/ofswitch13/model/ofswitch13-learning-controller.cc 2>/dev/null &
+: 1477938276:0;cd
+: 1477938277:0;ls
+: 1477938280:0;cd repos
+: 1477938281:0;ls
+: 1477938296:0;hg clone http://code.nsnam.org/ns-3-dev
+: 1477938574:0;cd ns-3-dev
+: 1477938577:0;./waf configure -d debug
+: 1477938603:0;./waf
+: 1477938887:0;ls
+: 1477938895:0;ll pcap
+: 1477938899:0;ll *.pcap
+: 1477938925:0;mkdir external-controller
+: 1477939836:0;./waf --regression
+: 1477940174:0;su
+: 1477941064:0;df -h
+: 1477941282:0;bash
+: 1477941641:0;free -h
+: 1477941670:0;df -h
+: 1477941674:0;ifconfig
+: 1477941733:0;df -h
+: 1477941856:0;su
+: 1477941882:0;ifconfig
+: 1477942363:0;df -h
+: 1477942371:0;su
+: 1477943650:0;ifconfig
+: 1477943657:0;whoami
+: 1477943661:0;host
+: 1477943674:0;hostname
+: 1477943680:0;ping ns-3-test-1
+: 1477943687:0;sudo fdisk -l
+: 1477943720:0;cd $NS3
+: 1477943724:0;du -h
+: 1477943738:0;du -h|sort
+: 1477943906:0;cd 
+: 1477943907:0;ls
+: 1477943914:0;du -h
+: 1477943922:0;du -h .
+: 1477943929:0;ls
+: 1477943939:0;cd Downloads
+: 1477943939:0;ls
+: 1477943942:0;cd ..
+: 1477943945:0;cd repos
+: 1477943946:0;ls
+: 1477943954:0;cd ns-3-allinone
+: 1477943955:0;ls
+: 1477943965:0;du -h
+: 1477943969:0;cd ..
+: 1477943971:0;ls
+: 1477943981:0;rm -rf ns-3-allinone
+: 1477943989:0;sudo rm -rf ns-3-allinone
+: 1477943991:0;ls
+: 1477943993:0;df -h
+: 1477944010:0;sudo shutdown -h now
+: 1477944177:0;su
+: 1477944428:0;sudo -H gedit /etc/fstab
+: 1477944480:0;sudo shutdown -r now
+: 1477944612:0;systemd-analyze critical-chain
+: 1477944625:0;sudo systemd-analyze critical-chain
+: 1477944681:0;swapon --show
+: 1477944690:0;mount
+: 1477944705:0;sudo blkid
+: 1477944732:0;sudo vi /etc/fstab
+: 1477944803:0;sudo blkid
+: 1477944909:0;free -h
+: 1477944958:0;sudo shutdown -h now
+: 1477945183:0;sudo fdisk -l
+: 1477945199:0;sudo vi /etc/fstab
+: 1477945302:0;sudo fdisk /dev/sda
+: 1477945449:0;sudo fdisk -l
+: 1477945453:0;df -h
+: 1477945471:0;sudo vi /etc/fstab
+: 1477945509:0;sudo blkid
+: 1477945522:0;sudo vi /etc/fstab
+: 1477945536:0;free -h
+: 1477945621:0;sudo blkid /dev/sdb2
+: 1477945625:0;sudo blkid /dev/sdb5
+: 1477945627:0;sudo blkid /dev/sdb1
+: 1477945631:0;sudo blkid /dev/sda1
+: 1477945635:0;sudo blkid /dev/sda2
+: 1477945637:0;sudo blkid /dev/sda5
+: 1477945666:0;sudo apt-get install gparted
+: 1477945686:0;Gparted
+: 1477945693:0;gparted
+: 1477945698:0;sudo gparted
+: 1477945824:0;sudo fdisk /dev/sda
+: 1477945852:0;sudo gparted
+: 1477946360:0;swapoff -a 
+: 1477946364:0;sudo swapoff -a 
+: 1477946382:0;sudo  fdisk /dev/sda
+: 1477946555:0;sudo mkswap /dev/sda2
+: 1477946570:0;sudo fdisk -l
+: 1477946577:0;sudo mkswap /dev/sda2
+: 1477946637:0;sudo reboot
+: 1477946762:0;sudo fdisk -l
+: 1477946780:0;mkswap /dev/sda2
+: 1477946786:0;sudo mkswap /dev/sda2
+: 1477946801:0;swapon /dev/sda2
+: 1477946805:0;sudo swapon /dev/sda2
+: 1477946827:0;sudo vi /etc/fstab
+: 1477946886:0;free -h
+: 1477946894:0;df -h
+: 1477947507:0;cd $NS3
+: 1477947513:0;ls
+: 1477947523:0;pwd
+: 1477947571:0;cd bake
+: 1477947572:0;ls
+: 1477947596:0;cd ..
+: 1477947615:0;rm bake
+: 1477947621:0;rm -rf bake
+: 1477947629:0;cd repos
+: 1477947630:0;ls
+: 1477947654:0;history|grep ns-3-allinone
+: 1477947678:0;ls
+: 1477947683:0;cd ..
+: 1477947684:0;ls
+: 1477947688:0;cd repos
+: 1477947773:0;vi ~/.zsh_history
+: 1477947824:0;~/.bash_history
+: 1477947832:0;sudo ~/.bash_history
+: 1477947843:0;bash
+: 1477947859:0;sudo vi ~/.bash_history
+: 1477947966:0;hg clone http://code.nsnam.org/ns-3-allinone
+: 1477947976:0;ls
+: 1477947980:0;cd ns-3-allinone
+: 1477947980:0;ls
+: 1477947990:0;./download.py
+: 1477948319:0;wget https://bitbucket.org/ljerezchaves/ofswitch13-module/downloads/nbeesrc.zip
+: 1477948452:0;unzip nbeesrc.zip
+: 1477948457:0;cd netbee/src/
+: 1477948460:0;cmake .
+: 1477948463:0;make
+: 1477948533:0;sudo cp ../bin/libn*.so /usr/local/lib
+: 1477948542:0;sudo ldconfig
+: 1477948547:0;sudo cp -R ../include/* /usr/include/
+: 1477948555:0;git clone https://github.com/ljerezchaves/ofsoftswitch13
+: 1477948606:0;cd ofsoftswitch13
+: 1477948613:0;git checkout v2.0.x
+: 1477948626:0;git lg -2
+: 1477948649:0;git checkout -b b-cqq-2016-11-1
+: 1477948666:0;./boot.sh
+: 1477948689:0;./configure --enable-ns3-lib
+: 1477948698:0;./boot.sh
+: 1477948719:0;make
+: 1477948748:0;hg clone http://code.nsnam.org/ns-3.24
+: 1477949021:0;cd ns-3.24
+: 1477949024:0;hg update ns-3.24.1
+: 1477949046:0;hg clone https://bitbucket.org/ljerezchaves/ofswitch13-module src/ofswitch13
+: 1477949062:0;cd src/ofswitch13
+: 1477949067:0;hg update 2.0.2
+: 1477949075:0;cd ../../
+: 1477949083:0;patch -p1 < src/ofswitch13/utils/ofswitch13-csma-3_24_1.patch
+: 1477949090:0;patch -p1 < src/ofswitch13/utils/ofswitch13-doc-3_24_1.patch
+: 1477949162:0;sudo vi ~/.zsh_history
+: 1477949200:0;ls
+: 1477949210:0;cd ..
+: 1477949211:0;ls
+: 1477949216:0;cd ..
+: 1477949220:0;ls
+: 1477949223:0;cd src
+: 1477949223:0;ls
+: 1477949231:0;cd ..
+: 1477949234:0;ls
+: 1477949240:0;cd pybindgen
+: 1477949241:0;ls
+: 1477949249:0;cd pybindgen
+: 1477949250:0;ls
+: 1477949252:0;cd ..
+: 1477949261:0;sudo python setup.py install
+: 1477949291:0;cd $NS3
+: 1477949293:0;pwd
+: 1477949338:0;find . -name wscript
+: 1477949381:0;vi src/wscript
+: 1477949438:0;cd $NS3
+: 1477949448:0;ls
+: 1477949515:0;vi bindings/Python/wscript
+: 1477949532:0;ls
+: 1477949544:0;ll bindings
+: 1477949548:0;ll bindings/python
+: 1477949561:0;vi bindings/Python/wscript
+: 1477949585:0;vi bindings/python/wscript
+: 1477949695:0;cd ..
+: 1477949696:0;ls
+: 1477949856:0;cd $NS3
+: 1477949860:0;cd ../../..
+: 1477949864:0;cd ..
+: 1477949871:0;git clone https://github.com/kohler/click
+: 1477949968:0;cd click
+: 1477949970:0;./configure --disable-linuxmodule --enable-nsclick --enable-wifi
+: 1477949979:0;make
+: 1477950258:0;cd $NS3
+: 1477950261:0;./waf configure --enable-examples --enable-tests --enable-mpi  --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1477950291:0;./waf build
+: 1477950500:0;watch free -h
+: 1477987131:0;clear
+: 1477987138:0;clera
+: 1477987140:0;clear
+: 1477987149:0;find . -name dummy-network.cc
+: 1477987173:0;gedit ./src/fd-net-device/examples/dummy-network.cc 2>/dev/null &
+: 1477987221:0;ifconfig|grep 192
+: 1477987263:0;cp ./src/fd-net-device/examples/dummy-network.cc ./scratch
+: 1477987277:0;./waf --run dummy-network
+: 1477987318:0;ls
+: 1477987323:0;ll *.pcap
+: 1477987330:0;tcpdump dummy-network-0-1.pcap
+: 1477987338:0;tcpdump dummy-network-1-1.pcap
+: 1477987386:0;find . -name realtime-dummy-network.cc
+: 1477987403:0;gedit ./src/fd-net-device/examples/realtime-dummy-network.cc 2>/dev/null &
+: 1477987529:0;ifconfig|grep 192
+: 1477987536:0;clear
+: 1477987574:0;cd $NS3
+: 1477987576:0;vi ./src/fd-net-device/examples/realtime-dummy-network.cc
+: 1477987634:0;cp ./src/fd-net-device/examples/realtime-dummy-network.cc ./scratch
+: 1477987648:0;./waf --run realtime-dummy-network
+: 1477987725:0;ifconfig
+: 1477987869:0;find . -name fd2fd-onoff.cc
+: 1477988004:0;gedit ./src/fd-net-device/examples/fd2fd-onoff.cc  2>/dev/null &
+: 1477988337:0;./waf --run fd2fd-onoff
+: 1477988350:0;ll *.pcap
+: 1477988368:0;tcpdump fd2fd-onoff-client-0-0.pcap
+: 1477988546:0;./waf --run "fd2fd-onoff --tcpMode=1"
+: 1477988555:0;ll *.pcap
+: 1477988563:0;tcpdump fd2fd-onoff-client-0-0.pcap
+: 1477988576:0;tcpdump fd2fd-onoff-server-1-0.pcap
+: 1477988604:0;./waf --run "fd2fd-onoff --tcpMode=1"
+: 1477988611:0;ll *.pcap
+: 1477989272:0;sudo tunctl -t tap0
+: 1477989288:0;sudo apt-get install tunctl
+: 1477989312:0;ping www.baidu.com
+: 1477989410:0;ifconfig|grep 192
+: 1477989419:0;ping www.baidu.com
+: 1477989427:0;sudo apt-get install tunctl
+: 1477989475:0;sudo apt-get install uml-utilities
+: 1477989531:0;ifconfig
+: 1477989554:0;sudo tunctl -t tap0
+: 1477989562:0;ifconfig
+: 1477989631:0;ls
+: 1477989666:0;mkdir external-controller
+: 1477989737:0;./waf --run external-controller
+: 1477990016:0;find . -name tap-wifi-dumbbell.cc
+: 1477990041:0;gedit ./src/tap-bridge/examples/tap-wifi-dumbbell.cc  2>/dev/null &
+: 1477990351:0;cp ./src/tap-bridge/examples/tap-wifi-dumbbell.cc ./scratch
+: 1477990380:0;sudo tunctl -t mytap1
+: 1477990388:0;sudo ifconfig
+: 1477990416:0;sudo ifconfig mytap1 0.0.0.0 promisc up
+: 1477990421:0;sudo ifconfig
+: 1477990436:0;sudo tunctl -t mytap2
+: 1477990447:0;sudo ifconfig mytap2 0.0.0.0 promisc up
+: 1477990466:0;sudo brctl addbr mybridge
+: 1477990483:0;sudo brctl addif mybridge mytap1
+: 1477990488:0;sudo brctl addif mybridge mytap2
+: 1477990521:0;sudo ifconfig mybridge 10.1.1.5 netmask 255.255.255.0 up
+: 1477990528:0;ifconfig
+: 1477990551:0;ll scratch
+: 1477990629:0;./waf --run "tap-wifi-dumbbell  --mode=UseBridge --tapName=mytap2" &
+: 1477990670:0;sudo ./waf --run "tap-wifi-dumbbell  --mode=UseBridge --tapName=mytap2" &
+: 1477990703:0;ping 10.1.1.3
+: 1477990773:0;ls
+: 1477990777:0;ls *.pcpa
+: 1477990781:0;ls *.pcap
+: 1477990793:0;ls tap-*.pcap
+: 1477990797:0;ll tap-*.pcap
+: 1477990807:0;tcpdump tap-wifi-dumbbell-0-0.pcap
+: 1477990823:0;ll tap-*.pcap
+: 1477990896:0;ifconfig|grep 192
+: 1477990917:0;cd $NS3
+: 1477990942:0;find . -name "tap-wifi-dumbbell.cc"
+: 1477990955:0;vi ./src/tap-bridge/examples/tap-wifi-dumbbell.cc
+: 1477991072:0;clear
+: 1477991075:0;sudo ./waf --run tap-wifi-dumbbell&
+: 1477991107:0;ping 10.1.1.13
+: 1477991114:0;sudo ./waf --run tap-wifi-dumbbell&
+: 1477991123:0;ping 10.1.1.3
+: 1477991609:0;./waf --run tap-wifi-dumbbell &
+: 1477991617:0;sudo ./waf --run tap-wifi-dumbbell &
+: 1477991628:0;ping 10.1.1.3
+: 1477991764:0;ifconfig
+: 1477991786:0;sudo tunctl -d mytap1 mytap2
+: 1477991794:0;sudo tunctl -d mytap1
+: 1477991798:0;sudo tunctl -d mytap2
+: 1477991801:0;ifconfig
+: 1477991814:0;sudo tunctl -d mybridge
+: 1477991939:0;sudo brctl --help
+: 1477991963:0;sudo brctl delbr mybridge
+: 1477991988:0;sudo ifconfig mybridge down
+: 1477991991:0;sudo brctl delbr mybridge
+: 1477991994:0;ifconfig
+: 1477992123:0;sudo ./waf --run tap-wifi-dumbbell &
+: 1477992139:0;ping 10.1.1.3
+: 1477992184:0;vi ./src/tap-bridge/examples/tap-wifi-dumbbell.cc
+: 1477992301:0;sudo ./waf --run tap-wifi-dumbbell &
+: 1477992316:0;ifconfig
+: 1477993179:0;vi ./src/tap-bridge/examples/tap-wifi-dumbbell.cc
+: 1477993377:0;sudo ./waf --run tap-wifi-dumbbell &
+: 1477993391:0;ifconfig
+: 1477993414:0;sudo ./waf --run tap-wifi-dumbbell &
+: 1477993427:0;sudo ./waf --run tap-wifi-dumbbell&
+: 1477993438:0;ps aux |grep waf
+: 1477993456:0;sudo kill 33576 33596 33609
+: 1477993459:0;ps aux |grep waf
+: 1477993471:0;sudo killall 33576 33596 33609
+: 1477993474:0;ps aux |grep waf
+: 1477993516:0;ifconfig
+: 1477993523:0;sudo ./waf --run tap-wifi-dumbbell&
+: 1477993533:0;sudo route add -net 10.1.3.0 netmask 255.255.255.0 dev thetap gw 10.1.1.2
+: 1477993540:0;ifconfig
+: 1477993554:0;ping 10.1.3.4
+: 1477993734:0;sudo ./waf --run tap-wifi-dumbbell&
+: 1477993751:0;vi ./src/tap-bridge/examples/tap-wifi-dumbbell.cc
+: 1477993759:0;sudo route add -net 10.1.3.0 netmask 255.255.255.0 dev thetap gw 10.1.1.2
+: 1477993807:0;sudo ./waf --run tap-wifi-dumbbell&
+: 1477993813:0;sudo route add -net 10.1.3.0 netmask 255.255.255.0 dev thetap gw 10.1.1.2
+: 1477993822:0;traceroute 10.1.3.4
+: 1477993881:0;sudo ./waf --run tap-wifi-dumbbell&
+: 1477993886:0;sudo route add -net 10.1.3.0 netmask 255.255.255.0 dev thetap gw 10.1.1.2
+: 1477993893:0;ping 10.1.3.4
+: 1477993904:0;sudo ./waf --run tap-wifi-dumbbell&
+: 1477993913:0;ifconfig
+: 1477993999:0;sudo ./waf --run tap-wifi-dumbbell&
+: 1477994010:0;sudo route add -net 10.1.3.0 netmask 255.255.255.0 dev thetap gw 10.1.2.1
+: 1477994031:0;sudo route add -net 10.1.3.0 netmask 255.255.255.0 dev thetap gw 10.1.3.1
+: 1477994647:0;vi ./src/tap-bridge/examples/tap-wifi-dumbbell.cc
+: 1477994673:0;gedit ./src/tap-bridge/examples/tap-wifi-dumbbell.cc 2>/dev/null &
+: 1477994743:0;cd ~/Desktop
+: 1477994765:0;cd -
+: 1477994770:0;cd ~/Desktop
+: 1477994809:0;ls
+: 1477994884:0;nc 192.168.170.1 4444 < "Screenshot from 2016-10-31 14-25-08.png"
+: 1477994905:0;nc 192.168.170.1 4444 < "Screenshot from 2016-11-01 03-05-13.png"
+: 1478001140:0;sudo apt-get install build-essentialdefault-jdk ant python-dev
+: 1478001149:0;ping www.baidu.com
+: 1478001160:0;sudo apt-get install build-essential default-jdk ant python-dev
+: 1478001554:0;sudo apt-get install build-essential ant maven python-dev
+: 1478001596:0;ls
+: 1478001598:0;cd repos
+: 1478001599:0;ls
+: 1478001614:0;git clone git://github.com/floodlight/floodlight.git
+: 1478002082:0;pwd
+: 1478002088:0;cd ~
+: 1478002089:0;ls
+: 1478002090:0;cd repos
+: 1478002091:0;ls
+: 1478002129:0;nc 192.168.170.1 4444 > floodlight-master.zip
+: 1478002134:0;ls
+: 1478002142:0;unzip floodlight-master.zip
+: 1478002145:0;ls
+: 1478002149:0;cd floodlight
+: 1478002150:0;ls
+: 1478002154:0;cd ..
+: 1478002170:0;ls
+: 1478002180:0;cd floodlight-master
+: 1478002181:0;ls
+: 1478002797:0;git init
+: 1478002807:0;git remote add origin https://github.com/floodlight/floodlight
+: 1478002811:0;git status
+: 1478002816:0;cd ..
+: 1478002827:0;rm floodlight-master floodlight
+: 1478002838:0;mv floodlight-master floodlight
+: 1478002839:0;ls
+: 1478002843:0;cd floodlight
+: 1478002844:0;ls
+: 1478002862:0;git add --all;git commit -m "init"
+: 1478002882:0;git submodule init
+: 1478002886:0;git submodule update
+: 1478002910:0;ant
+: 1478002987:0;sudo mkdir /var/lib/floodlight
+: 1478003003:0;sudo chmod 777 /var/lib/floodlight
+: 1478003065:0;git pull origin master
+: 1478003196:0;cd ..
+: 1478003254:0;cd ~
+: 1478003257:0;cd repos
+: 1478003258:0;ls
+: 1478003267:0;mv floodlight floodlight-master
+: 1478003271:0;cd floodlight-master
+: 1478003272:0;ls
+: 1478003299:0;git clone https://github.com/floodlight/floodlight
+: 1478003658:0;ll target
+: 1478003671:0;java -jar target/floodlight.jar
+: 1478003735:0;curl http://127.0.0.1:8080
+: 1478003835:0;curl http://127.0.0.1:6655
+: 1478004081:0;curl http://127.0.0.1:8080/wm/staticflowpusher/list/all/json
+: 1478004105:0;vi ~/.zshrc
+: 1478004122:0;sudo lsof -i -nP
+: 1478004147:0;sudo lsof -i -nP|grep "IPv4"
+: 1478004166:0;sudo lsof -i -nP|grep "IPv4"|grep "TCP"
+: 1478004217:0;netstat -ano
+: 1478004223:0;netstat -tpln
+: 1478004236:0;sudo netstat -tpln
+: 1478004572:0;cd $NS3
+: 1478004588:0;./waf --run external-controller
+: 1478004631:0;sudo ./waf --run external-controller
+: 1478005056:0;gedit scratch/external-controller.cc 2>/dev/null &
+: 1478005100:0;ll external-controller
+: 1478005103:0;ls
+: 1478005109:0;ll *.pcap
+: 1478005115:0;date
+: 1478005207:0;sudo netstat -tpln
+: 1478005227:0;ps aux|grep java
+: 1478005318:0;cd $NS3
+: 1478005387:0;./waf --run external-controller
+: 1478005402:0;sudo ./waf --run external-controller
+: 1478005428:0;curl http://10.0.2.15:8080/wm/staticflowpusher/list/all/json
+: 1478005452:0;curl http://127.0.0.1:8080/wm/staticflowpusher/list/all/json
+: 1478005460:0;sudo ./waf --run external-controller
+: 1478005469:0;curl http://127.0.0.1:8080/wm/staticflowpusher/list/all/json
+: 1478005481:0;curl http://127.0.0.1:8080
+: 1478006059:0;cd ~/repos
+: 1478006062:0;cd floodlight
+: 1478006064:0;cd ..
+: 1478006068:0;cd floodlight-master
+: 1478006070:0;ls
+: 1478006081:0;vi src/main/resources/floodlightdefault.properties
+: 1478006134:0;cd ~/repos/floodlight-master
+: 1478006148:0;vi src/main/resources/floodlightdefault.properties
+: 1478006949:0;ps aux|grep java
+: 1478006965:0;sudo netstat -tpln
+: 1478006995:0;cd -
+: 1478007006:0;java -jar target/floodlight.jar
+: 1478007042:0;sudo ./waf --run external-controller
+: 1478007491:0;curl http://10.0.2.15:8080/wm/staticflowpusher/list/all/json
+: 1478029207:0;ifconfig|grep 192
+: 1478029237:0;cd $NS3
+: 1478029242:0;ls
+: 1478029265:0;ll *.pcap
+: 1478029275:0;./waf --run nsclick-simple-lan
+: 1478029294:0;find . -name "nsclick-simple-lan"
+: 1478029298:0;find . -name "nsclick-simple-lan.cc"
+: 1478029313:0;ll *.pcap
+: 1478029329:0;vi ./src/click/examples/nsclick-simple-lan.cc
+: 1478029466:0;tcpdump nsclick-simple-lan-0-0.pcap
+: 1478029500:0;ll *.pcap
+: 1478029556:0;wireshark Node0_fromkernel.pcap &
+: 1478029582:0;cd $NS3
+: 1478029596:0;wireshark Node0_fromkernel.pcap 2>/dev/null &
+: 1478029940:0;ll src/click/examples/
+: 1478029972:0;vi nsclick-wifi-single-interface.click
+: 1478030001:0;cd src/click/examples/
+: 1478030003:0;ll
+: 1478030006:0;vi nsclick-wifi-single-interface.click
+: 1478030077:0;vi nsclick-raw-wlan.cc
+: 1478052823:0;clear
+: 1478052832:0;./waf --run trad-handover --vis
+: 1478052847:0;ll scratch
+: 1478052877:0;ifconfig|grep 192
+: 1478052895:0;ls
+: 1478052903:0;mkdir trad-handover
+: 1478052908:0;mkdir SDN-handover
+: 1478052912:0;./waf --run trad-handover --vis
+: 1478052992:0;cd src/visualizer/visualizer
+: 1478053003:0;ls
+: 1478053013:0;rm *.py *.pyc
+: 1478053014:0;ls
+: 1478053042:0;git clone https://github.com/caiqiqi/PyViz-visualizer
+: 1478053049:0;git status
+: 1478053068:0;ls
+: 1478053074:0;rm -rf PyViz-visualizer
+: 1478053102:0;cd ..
+: 1478053109:0;mv visualizer visualizer.bak
+: 1478053110:0;ls
+: 1478053121:0;git clone https://github.com/caiqiqi/PyViz-visualizer
+: 1478053133:0;git clone https://github.com/caiqiqi/PyViz-visualizer visualizer
+: 1478053137:0;ls
+: 1478053139:0;cd visualizer
+: 1478053140:0;ls
+: 1478053159:0;mv -r ../visualizer.bak/* ./
+: 1478053166:0;mv ../visualizer.bak/* ./
+: 1478053168:0;ls
+: 1478053198:0;git checkout branch-for-ofswitch13
+: 1478053202:0;git branch
+: 1478053210:0;cd ../..
+: 1478053212:0;cd ..
+: 1478053217:0;./waf --run trad-handover --vis
+: 1478053293:0;ls
+: 1478053296:0;cd trad-handover
+: 1478053297:0;ls
+: 1478053300:0;ll *.pcap
+: 1478053320:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap 2>/dev/null &
+: 1478053368:0;cd ..
+: 1478053372:0;./waf --run trad-handover --vis
+: 1478053422:0;cd $NS3
+: 1478053423:0;ls
+: 1478053433:0;cd trad-handover
+: 1478053433:0;ls
+: 1478053438:0;ll *.pcap
+: 1478053447:0;./waf --run trad-handover
+: 1478053500:0;ll *.pcap
+: 1478053508:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap 2>/dev/null &
+: 1478053706:0;vi scratch/trad-handover.cc
+: 1478053729:0;./waf --run trad-handover
+: 1478053773:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap 2>/dev/null &
+: 1478053853:0;./waf --run trad-handover
+: 1478053860:0;./waf --run trad-handover --vis
+: 1478055439:0;cd src/click
+: 1478055440:0;ls
+: 1478055446:0;tree
+: 1478055536:0;cd ~?repos
+: 1478055539:0;cd ~/repos
+: 1478055540:0;ls
+: 1478055546:0;cd ns-3-allinone
+: 1478055547:0;ls
+: 1478055550:0;cd click
+: 1478055551:0;ls
+: 1478055555:0;cd apps
+: 1478055556:0;ls
+: 1478055563:0;cd clicky
+: 1478055563:0;ls
+: 1478055638:0;autoreconf -i
+: 1478055656:0;./configure --prefix=PREFIX
+: 1478055709:0;./configure --prefix=test
+: 1478055716:0;ls
+: 1478055725:0;pwd
+: 1478055728:0;ll ..
+: 1478055735:0;ll ../..
+: 1478055743:0;ll ..
+: 1478055751:0;pwd
+: 1478055769:0;./configure --prefix=/home/cqq/repos/ns-3-allinone/click/apps
+: 1478055786:0;./configure --prefix=/home/cqq/repos/ns-3-allinone/click
+: 1478055794:0;make install
+: 1478055816:0;pwd
+: 1478055818:0;cd ../..
+: 1478055819:0;ls
+: 1478055835:0;ll *.h
+: 1478055863:0;ll conf/
+: 1478055871:0;ls
+: 1478055876:0;vi config.h.in
+: 1478055891:0;cp config.h.in config.h
+: 1478055898:0;make install
+: 1478055908:0;sudo make install
+: 1478055924:0;ls
+: 1478055945:0;cd apps/clicky
+: 1478055953:0;autoreconf -i
+: 1478055961:0;pwd
+: 1478055974:0;./configure --prefix=/home/cqq/repos/ns-3-allinone/click
+: 1478055985:0;make install
+: 1478056043:0;ls
+: 1478056091:0;cd images
+: 1478056091:0;ls
+: 1478056096:0;open throbber.gif
+: 1478056103:0;file ptor referring to t
+: 1478056108:0;file throbber.gif
+: 1478056121:0;cd ..
+: 1478056137:0;netstat -tpln
+: 1478056157:0;sudo netstat -tpln
+: 1478056201:0;cd ..
+: 1478056202:0;ls
+: 1478056206:0;cd ..
+: 1478056207:0;ls
+: 1478056229:0;cd apps/ClickController
+: 1478056230:0;ls
+: 1478056233:0;cd ..
+: 1478056237:0;cd clicky
+: 1478056239:0;ls
+: 1478056245:0;ll
+: 1478056262:0;cd src
+: 1478056262:0;ls
+: 1478056272:0;click
+: 1478056285:0;which click
+: 1478056294:0;click --help
+: 1478056308:0;./clicky
+: 1478056319:0;pwd
+: 1478056331:0;vi ~/.zshrc
+: 1478056362:0;source ~/.zshrc
+: 1478056369:0;cd ..
+: 1478056374:0;cd ../..
+: 1478056377:0;clicky
+: 1478056611:0;cd $NS3
+: 1478056612:0;ls
+: 1478056616:0;cd src/click
+: 1478056617:0;ls
+: 1478056620:0;tree
+: 1478056950:0;cd $NS3
+: 1478056965:0;cd ~/repos
+: 1478056966:0;ls
+: 1478056970:0;cd floodlight-master
+: 1478056970:0;ls
+: 1478056976:0;java -jar target/floodlight.jar
+: 1478056988:0;cd $NS3
+: 1478056990:0;ls
+: 1478056993:0;cd ~/repos
+: 1478056994:0;ls
+: 1478057120:0;git clone https://github.com/Wi5/odin-wi5-controller
+: 1478073846:0;ls
+: 1478073850:0;cd odin-wi5-controller
+: 1478073850:0;ls
+: 1478073981:0;ll src/main/resources/floodlightbenchmarking.properties
+: 1478073993:0;ll src/main/resources/floodlightdefault.properties
+: 1478074004:0;java -jar target/floodlight.jar
+: 1478074042:0;cd example
+: 1478074043:0;ls
+: 1478074082:0;./graphTopo.py
+: 1478074162:0;./graphTopo.py 127.0.0.1 8080
+: 1478074170:0;ls
+: 1478074191:0;ll 127.0.0.1.dot
+: 1478074204:0;cat 127.0.0.1.dot
+: 1478074280:0;./cli.py
+: 1478075047:0;cd ..
+: 1478075059:0;cd src/test/java/net/floodlightcontroller/odin/master
+: 1478075060:0;ls
+: 1478075069:0;java -c OdinTest.java
+: 1478075339:0;ls
+: 1478075343:0;vi OdinTest.java
+: 1478075368:0;pwd
+: 1478075372:0;cd /home/cqq/repos/odin-wi5-controller/src/test/java/net/floodlightcontroller/odin/master
+: 1478075390:0;gedit TestRunner.java
+: 1478075517:0;javac OdinTest.java TestRunner.java
+: 1478075607:0;ls
+: 1478075611:0;ant eclipse
+: 1478075868:0;wget https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-linux64.tar.gz ~/repos/
+: 1478075888:0;cd ~/repos
+: 1478075889:0;ls
+: 1478075902:0;wget https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-linux64.tar.gz
+: 1478075914:0;wget "https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-linux64.tar.gz"
+: 1478075924:0;ls
+: 1478075932:0;ll download.php?file=%2Foomph%2Fepp%2Fneon%2FR1%2Feclipse-inst-linux64.tar.gz
+: 1478076012:0;rm download.php?file=%2Foomph%2Fepp%2Fneon%2FR1%2Feclipse-inst-linux64.tar.gz
+: 1478076014:0;ls
+: 1478076023:0;cd ~/Downloads
+: 1478076024:0;ls
+: 1478076031:0;ll
+: 1478076047:0;tar xzvf eclipse-inst-linux64.tar.gz
+: 1478076061:0;./eclipse-inst
+: 1478076910:0;df -h
+: 1478076990:0;cd ..
+: 1478076992:0;ls
+: 1478077125:0;cd 
+: 1478077128:0;vim .local/share/applications/eclipse.desktop
+: 1478077211:0;cd
+: 1478077212:0;ls
+: 1478077221:0;cd eclipse
+: 1478077221:0;ls
+: 1478077238:0;cd java-neon
+: 1478077238:0;ls
+: 1478077240:0;cd eclipse
+: 1478077241:0;ls
+: 1478077294:0;ll eclipse
+: 1478077314:0;pwd
+: 1478077324:0;vi ~/.zshrc
+: 1478077352:0;source ~/.zshrc
+: 1478077364:0;free -h
+: 1478084809:0;sudo shutdown -h now
+: 1478085339:0;eclipse
+: 1478085423:0;eclipse &
+: 1478086023:0;cd repos
+: 1478086023:0;ls
+: 1478086027:0;cd odin-wi5-controller
+: 1478086027:0;ls
+: 1478086032:0;cd src
+: 1478086032:0;ls
+: 1478086036:0;cd test
+: 1478086037:0;ls
+: 1478086041:0;cd java
+: 1478086042:0;LS
+: 1478086044:0;ls
+: 1478086063:0;cd net/floodlightcontroller/odin/master
+: 1478086064:0;ls
+: 1478086068:0;rm TestRunner.java
+: 1478086132:0;cd $NS3
+: 1478086133:0;ls
+: 1478086140:0;./waf --run trad-handover --vis
+: 1478086172:0;./waf --run SDN-handover --vis
+: 1478086374:0;watch free -h
+: 1478087136:0;ll scratch
+: 1478087137:0;date
+: 1478087153:0;./waf --run trad-handover --vis
+: 1478087483:0;cd $NS3
+: 1478087505:0;grep . -r "ns3::RangePropagationLossModel"
+: 1478087586:0;vi ~/.zshrc
+: 1478087666:0;source ~/.zshrc
+: 1478087716:0;find . -name "*.cc" | xargs grep "ns3::RangePropagationLossModel"
+: 1478087730:0;find ./examples -name "*.cc" | xargs grep "ns3::RangePropagationLossModel"
+: 1478087749:0;gedit ./examples/wireless/simple-ht-hidden-stations.cc 2>/dev/null &
+: 1478087833:0;ll scratch
+: 1478087834:0;date
+: 1478087846:0;./waf --run trad-handover --vis
+: 1478087912:0;ls
+: 1478087916:0;ll *.plt
+: 1478087933:0;rm SDN*.plt
+: 1478087938:0;ll *.plt
+: 1478087944:0;gnuplot *.plt
+: 1478087949:0;ll *.png
+: 1478087956:0;open trad-handover__ThroughputVSTime.png
+: 1478088221:0;./waf --run trad-handover --vis
+: 1478088295:0;ll *.plt
+: 1478088304:0;gnuplot *.plt
+: 1478088461:0;./waf --run SDN-handover --vis
+: 1478088790:0;ll scratch
+: 1478088791:0;date
+: 1478088800:0;vi scratch/SDN-handover.cc
+: 1478088905:0;ll src/ofswitch13/model/
+: 1478088919:0;cd src/ofswitch13/model/
+: 1478088922:0;vi ofswitch13-controller.h
+: 1478088937:0;vi ofswitch13-learning-controller.h
+: 1478088955:0;vi ofswitch13-controller.h
+: 1478089034:0;vi ofswitch13-learning-controller.h
+: 1478089391:0;./waf --run SDN-handover --vis
+: 1478089546:0;./waf --run SDN-handover
+: 1478089574:0;./waf --run SDN-handover  --command-template="gdb %s"
+: 1478089709:0;cd -
+: 1478089716:0;vi ~/.zshrc
+: 1478089746:0;find . -name "*.cc" | xargs grep "InstallControllerApp"
+: 1478089944:0;./waf --run SDN-handover
+: 1478090102:0;./waf --run SDN-handover --vid
+: 1478090107:0;./waf --run SDN-handover --viz
+: 1478090110:0;./waf --run SDN-handover --vis
+: 1478090833:0;ifconfig|grep 192
+: 1478090876:0;ll scratch
+: 1478090882:0;./waf --run SDN-handover --vis
+: 1478090915:0;ll scratch/SDN-handover
+: 1478090937:0;mv scratch/SDN-handover/SDN-handover.cc scratch/SDN-handover/main.cc
+: 1478090939:0;./waf --run SDN-handover --vis
+: 1478090968:0;cd scratch
+: 1478090968:0;ls
+: 1478090979:0;rm SDN-handover.cc
+: 1478090992:0;mv SDN-handover/* ./
+: 1478090993:0;ls
+: 1478091011:0;mv main.cc SDN-handover.cc
+: 1478091016:0;rm SDN-handover
+: 1478091020:0;rmdir SDN-handover
+: 1478091021:0;ls
+: 1478091025:0;./waf --run SDN-handover --vis
+: 1478091077:0;cd ..
+: 1478091088:0;find . -name "qos-controller.cc"
+: 1478091124:0;cd src
+: 1478091125:0;ls
+: 1478091142:0;vi create-module.py
+: 1478091185:0;cd ..
+: 1478091186:0;ls
+: 1478091196:0;rm *.plt
+: 1478091205:0;rm *.png
+: 1478091316:0;./waf --run qos-controller --vis
+: 1478091347:0;./waf --run qos-controller
+: 1478091441:0;ls
+: 1478091456:0;cd SDN-handover
+: 1478091457:0;ll
+: 1478091466:0;cd ..
+: 1478091468:0;cd scratch
+: 1478091468:0;ls
+: 1478091491:0;rm qos-controller.h qos-controller.cc qos-controller SDN-handover.cc
+: 1478091495:0;ls
+: 1478091503:0;rm -rf qos-controller
+: 1478091507:0;cd SDN-handover
+: 1478091507:0;ll
+: 1478091508:0;date
+: 1478091516:0;cd ../..
+: 1478091528:0;./waf --run scratch/SDN-handover.cc
+: 1478091534:0;./waf --run scratch/SDN-handover
+: 1478091555:0;ll scratch
+: 1478091560:0;ll scratch/SDN-handover
+: 1478091571:0;./waf --run scratch/SDN-handover/SDN-handover
+: 1478091581:0;./waf --run scratch/SDN-handover/SDN-handover.cc
+: 1478091627:0;ll scratch
+: 1478091675:0;./waf --run 'scratch/SDN-handover/SDN-handover'
+: 1478091703:0;ll  /home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13/ns-3.24/build/scratch/ |wc -l
+: 1478091709:0;ll  /home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13/ns-3.24/build/scratch/
+: 1478091747:0;cd src
+: 1478091748:0;ls
+: 1478091765:0;cd tap-bridge
+: 1478091766:0;tree
+: 1478091782:0;cd ..
+: 1478091783:0;ls
+: 1478091789:0;mkdir qos-controller
+: 1478091795:0;cd  qos-controller
+: 1478091798:0;mkdir model
+: 1478091809:0;ls
+: 1478091823:0;cd SDN-handover
+: 1478091824:0;ls
+: 1478091828:0;cd ..
+: 1478091829:0;cd scratch
+: 1478091830:0;ls
+: 1478091836:0;cd SDN-handover
+: 1478091836:0;ls
+: 1478091863:0;cd model
+: 1478091864:0;ls
+: 1478091865:0;pwd
+: 1478091870:0;cp qos-controller.cc  qos-controller.h /home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13/ns-3.24/src/qos-controller/model/
+: 1478091872:0;ls
+: 1478091886:0;cd ../..
+: 1478091886:0;ls
+: 1478091890:0;cd tap-bridge
+: 1478091890:0;ls
+: 1478091893:0;ll bindings
+: 1478091900:0;cd ..
+: 1478091911:0;ls
+: 1478091917:0;mv SDN-handover.cc ../
+: 1478091919:0;ls
+: 1478091924:0;rm *
+: 1478091927:0;ls
+: 1478091929:0;cd ..
+: 1478091935:0;rmdir SDN-handover
+: 1478091935:0;ls
+: 1478091940:0;cd ../
+: 1478091949:0;./waf --run SDN-handover.cc
+: 1478091964:0;./waf --run SDN-handover
+: 1478092022:0;cd scratch
+: 1478092022:0;ls
+: 1478092024:0;cd subdir
+: 1478092025:0;ls
+: 1478092043:0;cd ..
+: 1478092063:0;./waf --run subdir
+: 1478092095:0;mv scratch/SDN-handover.cc scratch/SDN-handover.cc.bak
+: 1478092097:0;./waf --run subdir
+: 1478092119:0;./waf --run scratch-simulator-subdir
+: 1478092150:0;cd scratch
+: 1478092151:0;ls
+: 1478092163:0;mkdir SDN-handover
+: 1478092179:0;mv SDN-handover.cc.bak SDN-handover/SDN-handover.cc
+: 1478092182:0;cd SDN-handover
+: 1478092183:0;ls
+: 1478092198:0;mv SDN-handover.cc main.cc
+: 1478092209:0;cd src/qos-controller
+: 1478092210:0;ls
+: 1478092212:0;cd model
+: 1478092213:0;ls
+: 1478092230:0;pwd
+: 1478092235:0;cp * /home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13/ns-3.24/scratch/SDN-handover/
+: 1478092241:0;ls
+: 1478092249:0;cd ..
+: 1478092259:0;./waf --run SDN-handover
+: 1478092276:0;cd /home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13/ns-3.24/build/scratch/
+: 1478092284:0;mkdir SDN-handover
+: 1478092292:0;ls
+: 1478092298:0;ll
+: 1478092301:0;date
+: 1478092311:0;rm SDN-handover
+: 1478092321:0;rm SDN-handover.cc*
+: 1478092324:0;./waf --run SDN-handover
+: 1478092377:0;ls
+: 1478092380:0;pwd
+: 1478092383:0;cd -
+: 1478092387:0;cd $NS3
+: 1478092387:0;l
+: 1478092403:0;ls
+: 1478092408:0;cd scratch
+: 1478092409:0;ls
+: 1478092423:0;cd SDN-handover
+: 1478092424:0;ls
+: 1478092444:0;gedit main.cc 2>/dev/null &
+: 1478092648:0;ll scratch/SDN-handover
+: 1478092686:0;./waf --run SDN-handover
+: 1478094103:0;./waf --run SDN-handover --vis
+: 1478094153:0;ls
+: 1478094157:0;vi main.cc
+: 1478094378:0;./waf --run "SDN-handover --MaxRange=80 " --vis
+: 1478094446:0;cd SDN-handover
+: 1478094447:0;ll
+: 1478094448:0;date
+: 1478094474:0;wireshark SDN-handover-ofCtrl-15-1.pcap 2>/dev/null &
+: 1478094559:0;wireshark SDN-handover-ofCtrl-15-2.pcap 2>/dev/null &
+: 1478094616:0;tcpdump SDN-handover-switch1-csma-0-0.pcap
+: 1478094635:0;tcpdump SDN-handover-switch1-csma-0-1.pcap
+: 1478094640:0;tcpdump SDN-handover-switch1-csma-0-2.pcap
+: 1478094679:0;wireshark SDN-handover-switch1-csma-0-0.pcap 2>/dev/null &
+: 1478094700:0;ll
+: 1478094729:0;tcpdump SDN-handover-ap3-csma-4-0.pcap
+: 1478094743:0;wireshark SDN-handover-ap3-sta1-wifi-14-0.pcap 2>/dev/null &
+: 1478094797:0;vi main.cc
+: 1478094931:0;cd ..
+: 1478094942:0;./waf --run "SDN-handover --MaxRange=80 " --vis
+: 1478095045:0;cd ..
+: 1478095048:0;ll scratch
+: 1478095049:0;date
+: 1478095060:0;ll scratch/SDN-handover
+: 1478095075:0;./waf --run "SDN-handover --MaxRange=80 " --vis
+: 1478095212:0;find . -name "Ptr<OFSwitch13LearningController>"
+: 1478095234:0;find . -name "*.cc" |xargs grep "Ptr<OFSwitch13LearningController>"
+: 1478095281:0;gedit ./src/ofswitch13/test/ofswitch13-simple-transmission.cc 2>/dev/null &
+: 1478095352:0;find . -name "*.cc" |xargs grep "OFSwitch13LearningController"
+: 1478113705:0;df -h
+: 1478113708:0;free -h
+: 1478113727:0;ls
+: 1478113742:0;cd SDN-handover
+: 1478113743:0;ls
+: 1478113756:0;ll
+: 1478113776:0;cd ..
+: 1478113779:0;cd trad-handover
+: 1478113780:0;ls
+: 1478113781:0;ll
+: 1478113803:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap 2>/dev/null &
+: 1478113850:0;ls
+: 1478113862:0;rm SDN*.plt
+: 1478113865:0;ll *.plt
+: 1478113872:0;cd ..
+: 1478113888:0;./waf --run trad-handover --vis
+: 1478113964:0;gnuplot *.plt
+: 1478113965:0;ls
+: 1478113979:0;cd trad-handover
+: 1478113985:0;ll *.pcap
+: 1478114015:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap /dev/null &
+: 1478115578:0;./waf --run trad-handover --vis
+: 1478115640:0;ll
+: 1478115647:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap /dev/null &
+: 1478115676:0;wireshark trad-handover-ap3-sta1-wifi-14-0.pcap 2>/dev/null &
+: 1478117140:0;cd ..
+: 1478117142:0;cd src
+: 1478117144:0;ls
+: 1478117156:0;cd ofswitch13
+: 1478117157:0;ls
+: 1478117161:0;cd utils
+: 1478117161:0;ls
+: 1478117187:0;history|grep "patch"
+: 1478117222:0;cat ofswitch13-csma-3_24_1.patch
+: 1478117467:0;cd ../..
+: 1478117469:0;cd ..
+: 1478117478:0;find . -name "nsclick-udp-client-server-wifi.cc"
+: 1478117495:0;vi ./src/click/examples/nsclick-udp-client-server-wifi.cc
+: 1478118330:0;find . -name "nsclick-raw-wlan.cc"
+: 1478118338:0;vi ./src/click/examples/nsclick-raw-wlan.cc
+: 1478118476:0;vi src/click/examples/nsclick-wifi-single-interface.click
+: 1478118623:0;./waf --run nsclick-raw-wlan
+: 1478159021:0;ll src/click/examples/
+: 1478159048:0;gedit nsclick-ip-router.click 2>/dev/null &
+: 1478159062:0;gedit src/click/examples/nsclick-ip-router.click 2>/dev/null &
+: 1478159171:0;gedit src/click/examples/nsclick-wifi-single-interface.click 2>/dev/null &
+: 1478159817:0;cd ~/repos
+: 1478159821:0;ls
+: 1478159829:0;wget http://www.read.cs.ucla.edu/click/_media/click-tutorial1.tar.gz
+: 1478159834:0;ls
+: 1478159865:0;vi ~/.zshrc
+: 1478159961:0;source ~/.zshrc
+: 1478160031:0;tar zxvf click-tutorial1.tar.gz
+: 1478160053:0;tar xvf click-tutorial1.tar.gz
+: 1478160062:0;tar -xvf click-tutorial1.tar.gz
+: 1478160097:0;sudo apt-get install tar
+: 1478160153:0;tar -zxvf click-tutorial1.tar.gz
+: 1478160168:0;file click-tutorial1.tar.gz
+: 1478160183:0;gunzip click-tutorial1.tar.gz
+: 1478160184:0;ls
+: 1478160205:0;tar xvf click-tutorial1.tar
+: 1478160213:0;tar click-tutorial1.tar
+: 1478160219:0;tar click-tutorial1.tar xvf
+: 1478160229:0;file click-tutorial1.tar
+: 1478160306:0;nc 192.168.170.1 4444 > click-tutorial1
+: 1478160309:0;ls
+: 1478160318:0;rm click-tutorial1.tar
+: 1478160327:0;file click-tutorial1
+: 1478160345:0;pwd
+: 1478160382:0;ifconfig|grep 192
+: 1478160455:0;ls
+: 1478160465:0;file click-tutorial1
+: 1478160471:0;ll click-tutorial1
+: 1478160481:0;rm click-tutorial1
+: 1478160488:0;mkdir click-tutorial1
+: 1478160622:0;free -h
+: 1478160645:0;cd ~/Downloads
+: 1478160645:0;ls
+: 1478160661:0;history |grep "tar.gz"
+: 1478160685:0;cp click-tutorial1.tar.gz ~/repos
+: 1478160688:0;cd repos
+: 1478160688:0;ls
+: 1478160693:0;cd ~/repos
+: 1478160694:0;ls
+: 1478160700:0;ll click-tutorial1
+: 1478160704:0;rm click-tutorial1
+: 1478160708:0;rmdir click-tutorial1
+: 1478160735:0;tar zxvf click-tutorial1.tar.gz
+: 1478160745:0;tar xzvf click-tutorial1.tar.gz
+: 1478160754:0;tar xzvf ./click-tutorial1.tar.gz
+: 1478160782:0;tar xzvf eclipse-inst-linux64.tar.gz
+: 1478160789:0;ls
+: 1478160801:0;cd ~/Downloads
+: 1478160801:0;ls
+: 1478160813:0;tar zxvf eclipse-inst-linux64.tar.gz
+: 1478160822:0;tar xzvf eclipse-inst-linux64.tar.gz
+: 1478160842:0;history
+: 1478160913:0;cd repos
+: 1478160916:0;cd ~/repos
+: 1478160917:0;ls
+: 1478160922:0;rm click-tutorial1.tar.gz
+: 1478160925:0;cd click-tutorial1
+: 1478160925:0;ls
+: 1478160951:0;vi Makefile
+: 1478160962:0;make
+: 1478160996:0;touch prob1.click
+: 1478161045:0;vi f1a.dump
+: 1478161050:0;file f1a.dump
+: 1478161061:0;tcpdump f1a.dump
+: 1478161085:0;ll f1a.dump
+: 1478161115:0;ls
+: 1478161118:0;make
+: 1478161141:0;touch f1b.dump
+: 1478161144:0;make
+: 1478162499:0;ls
+: 1478162506:0;cd good
+: 1478162506:0;ls
+: 1478162511:0;cd ..
+: 1478162523:0;ll compare-traces
+: 1478162534:0;compare-traces
+: 1478162538:0;./compare-traces
+: 1478162547:0;ll
+: 1478162557:0;./compare-traces f1a.dump f2a.dump
+: 1478162579:0;vi src/click/examples/nsclick-wifi-single-interface.click
+: 1478163696:0;cd src/click/examples/
+: 1478163697:0;ls
+: 1478163699:0;ll
+: 1478163715:0;vi nsclick-udp-client-server-wifi.cc
+: 1478163724:0;vi nsclick-udp-client-server-csma.cc
+: 1478163776:0;cd $NS3
+: 1478163778:0;ls
+: 1478163789:0;cd src/click/examples
+: 1478163789:0;ls
+: 1478163791:0;ll
+: 1478163803:0;vi nsclick-lan-single-interface.click
+: 1478164833:0;cd $NS3
+: 1478164835:0;ls
+: 1478164867:0;find . -name "ofswitch13-learning-controller.cc"
+: 1478164873:0;cd ./src/ofswitch13/model/
+: 1478164874:0;ls
+: 1478164881:0;ll *.h
+: 1478164883:0;pwd
+: 1478170536:0;cd $NS3
+: 1478170537:0;ls
+: 1478170541:0;cd scratch
+: 1478170542:0;ls
+: 1478170546:0;cd SDN-handover
+: 1478170547:0;ls
+: 1478170558:0;rm qos-controller.cc qos-controller.h
+: 1478170561:0;cd ..
+: 1478170565:0;pwd
+: 1478170638:0;ll SDN-handover/main.cc
+: 1478170640:0;date
+: 1478170642:0;cd ..
+: 1478170653:0;./waf --run SDN-handover --vis
+: 1478177647:0;ls *.plt
+: 1478177655:0;gnuplot *.plt
+: 1478177657:0;ls
+: 1478177863:0;cd SDN-handover
+: 1478177864:0;ls
+: 1478177868:0;cd ..
+: 1478177891:0;cd scratch
+: 1478177891:0;ls
+: 1478177895:0;cd SDN-handover
+: 1478177896:0;ls
+: 1478177905:0;cd ..
+: 1478177909:0;ls
+: 1478196537:0;cd $NS3
+: 1478196539:0;ls
+: 1478196549:0;cd ~/repos
+: 1478196550:0;ls
+: 1478196567:0;git clone https://github.com/caiqiqi/odin-agent
+: 1478196603:0;cd odin-agent
+: 1478196603:0;ls
+: 1478196613:0;cd src
+: 1478196614:0;ls
+: 1478196630:0;gedit odinagent.cc 2>/dev/null &
+: 1478196638:0;gedit odinagent.h 2>/dev/null &
+: 1478196659:0;gedit odinagent.hh 2>/dev/null &
+: 1478199492:0;cd ..
+: 1478199503:0;rm -rf odin-agent
+: 1478199515:0;git clone https://github.com/Wi5/odin-wi5-agent
+: 1478199577:0;cd odin-wi5-agent
+: 1478199579:0;ls
+: 1478199586:0;cd scripts_start_ap_odin
+: 1478199587:0;ls
+: 1478199592:0;vi start.sh
+: 1478199625:0;ifconfig
+: 1478199652:0;cd ..
+: 1478199657:0;rm -rf scripts_start_ap_odin
+: 1478199659:0;ls
+: 1478199663:0;cd src
+: 1478199665:0;ls
+: 1478199683:0;gedit odinagent.cc 2>/dev/null &
+: 1478199689:0;gedit odinagent.hh 2>/dev/null &
+: 1478199747:0;ls
+: 1478199754:0;cd ..
+: 1478199756:0;ls
+: 1478199763:0;cd ..
+: 1478199764:0;ls
+: 1478199771:0;cd ..
+: 1478199772:0;ls
+: 1478199775:0;cd ..
+: 1478199777:0;ls
+: 1478199780:0;cd click
+: 1478199781:0;ls
+: 1478199791:0;cd elements
+: 1478199792:0;ls
+: 1478199806:0;cd local
+: 1478199810:0;ls
+: 1478199834:0;pwd
+: 1478199897:0;ls
+: 1478199905:0;pwd
+: 1478199910:0;cp * /home/cqq/repos/ns-3-allinone/click/elements/local/
+: 1478199916:0;ls
+: 1478199938:0;which click
+: 1478199943:0;click help
+: 1478199946:0;click --help
+: 1478199977:0;click --enable-local --enable-userspace
+: 1478200003:0;pwd
+: 1478200021:0;cd ../..
+: 1478200022:0;ls
+: 1478200031:0;rm -rf click-tutorial1
+: 1478200038:0;rm dirtyc0w.c 
+: 1478200043:0;rm -rf dirtyc0w
+: 1478200050:0;rm test
+: 1478200055:0;ls
+: 1478200656:0;cd ..
+: 1478200656:0;ls
+: 1478200662:0;cd ns
+: 1478200663:0;ls
+: 1478200667:0;cd ..
+: 1478200669:0;ls
+: 1478200700:0;history|grep " --enable-local"
+: 1478200714:0;history|grep "--enable-userspace"
+: 1478200723:0;history|grep " --enable-userspace"
+: 1478200770:0;history|grep "click"
+: 1478200840:0;git remote -v
+: 1478200901:0;./configure --disable-linuxmodule --enable-nsclick --enable-wifi  --enable-local --enable-userspace
+: 1478201668:0;./configure --disable-linuxmodule --enable-nsclick --enable-wifi  --enable-local --enable-userlevel
+: 1478201715:0;make
+: 1478201860:0;cd $NS3
+: 1478201878:0;history |grep "./waf --configure"
+: 1478201882:0;history |grep "./waf configure"
+: 1478201912:0;ls
+: 1478201915:0;cd userlevel
+: 1478201916:0;ls
+: 1478201930:0;cd ..
+: 1478201931:0;ls
+: 1478201965:0;cd tools/click-align
+: 1478201966:0;ls
+: 1478201975:0;cd ..
+: 1478201986:0;cd userlevel
+: 1478201987:0;ls
+: 1478201995:0;ll *.conf
+: 1478202007:0;vi elements.conf
+: 1478202027:0;--enable-examples --enable-tests --enable-mpi  --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1478202072:0;./waf configure --enable-examples --enable-tests --enable-mpi  --with-nsclick=/home/cqq/repos/ns-3-allinone/click --with-pybindgen=/home/cqq/repos/ns-3-allinone/pybindgen --with-ofswitch13=/home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13
+: 1478202131:0;sudo apt-get upgrade gccxml
+: 1478202175:0;./waf build
+: 1478220409:0;cd ~/repos
+: 1478220410:0;ls
+: 1478220416:0;cd odin-wi5-agent
+: 1478220418:0;ls
+: 1478220421:0;git status
+: 1478220431:0;cd src
+: 1478220432:0;ls
+: 1478223117:0;cd ~/repos
+: 1478223118:0;ls
+: 1478223124:0;cd ns-3-allinone
+: 1478223125:0;ls
+: 1478223127:0;cd click
+: 1478223127:0;ls
+: 1478223143:0;cd ..
+: 1478223146:0;cd $NS3
+: 1478223147:0;ls
+: 1478223157:0;cd src/click/examples
+: 1478223157:0;ls
+: 1478223187:0;gedit nsclick-raw-wlan.cc 2>/dev/null &
+: 1478223366:0;cd ..
+: 1478223369:0;ls
+: 1478223371:0;pwd
+: 1478223414:0;cd test
+: 1478223415:0;ls
+: 1478223429:0;gedit ipv4-click-routing-test.cc 2>/dev/null &
+: 1478228961:0;cd $NS3
+: 1478228963:0;ls
+: 1478229033:0;history|grep "./waf --run"|tail 30
+: 1478229036:0;history|grep "./waf --run"|tail -30
+: 1478229049:0;history|grep "./waf --run"|tail -60
+: 1478229111:0;cd $NS3
+: 1478229121:0;find . -name "tap-wifi-dumbbell"
+: 1478229148:0;find . -name "tap-wifi-dumbbell.cc"
+: 1478229176:0;vi ~/.zshrc
+: 1478229210:0;pwd
+: 1478229251:0;source ~/.zshrc
+: 1478229258:0;cd $TAP_BRIDGE_EXAMPLES
+: 1478229259:0;ls
+: 1478229287:0;gedit 2>/dev/null & tap-wifi-dumbbell.cc
+: 1478229301:0;vi ~/.zshrc
+: 1478229395:0;gedit tap-wifi-dumbbell.cc 2>/dev/null &
+: 1478230075:0;cd $NS3
+: 1478230089:0;ll src/click/model
+: 1478230104:0;vi src/click/model/ipv4-l3-click-protocol.cc
+: 1478230190:0;vi src/click/model/ipv4-click-routing.cc
+: 1478230200:0;vi src/click/model/ipv4-click-routing.h
+: 1478247920:0;ifconfig|grep 192
+: 1478247974:0;cd $NS3
+: 1478247983:0;cd src/click/examples
+: 1478247984:0;ls
+: 1478248002:0;vi nsclick-wifi-single-interface.click
+: 1478249729:0;ll
+: 1478249735:0;vi nsclick-udp-client-server-wifi.cc
+: 1478249906:0;cd $NS3
+: 1478249933:0;cd src/click
+: 1478249933:0;ls
+: 1478249936:0;cd model
+: 1478249937:0;ls
+: 1478249938:0;cd ..
+: 1478249940:0;ls
+: 1478250055:0;ll
+: 1478250058:0;cd examples
+: 1478250059:0;ls
+: 1478250060:0;ll
+: 1478250074:0;vi nsclick-wifi-single-interface.click
+: 1478252202:0;cd $NS3
+: 1478252203:0;ls
+: 1478252208:0;cd src/click
+: 1478252208:0;ls
+: 1478252221:0;cd examples
+: 1478252221:0;ls
+: 1478252244:0;cd ../..
+: 1478252245:0;ls
+: 1478252247:0;cd ..
+: 1478252250:0;ls
+: 1478252705:0;vi nsclick-udp-client-server-wifi.cc
+: 1478252775:0;cd $NS3
+: 1478252779:0;ls
+: 1478252787:0;find . -name "Node4_in_eth0.pcap"
+: 1478252809:0;./waf --run nsclick-udp-client-server-wifi
+: 1478252932:0;pwd
+: 1478252938:0;cd /home/cqq/repos/ns-3-allinone/netbee/src/ofsoftswitch13/ns-3.24/src/click/examples
+: 1478252944:0;vi nsclick-udp-client-server-wifi.cc
+: 1478252993:0;find . -name "nsclick-udp-client-server-wifi"
+: 1478252997:0;ls
+: 1478253002:0;ll *.pcap
+: 1478253037:0;tcpdump nsclick-udp-client-server-wifi-0-0.pcap
+: 1478253065:0;./waf --run nsclick-udp-client-server-wifi
+: 1478253091:0;ll *.pcap
+: 1478253102:0;tcpdump nsclick-udp-client-server-wifi-3-0.pcap
+: 1478253127:0;ll Node4_in_eth0.pcap
+: 1478253167:0;ifconfig
+: 1478253186:0;vi nsclick-wifi-single-interface.click
+: 1478253289:0;./waf --run nsclick-udp-client-server-wifi
+: 1478253454:0;cd $NS3
+: 1478253498:0;history|grep "wifi"
+: 1478253514:0;find . -name "tap-wifi-dumbbell.cc"
+: 1478253524:0;vi ./scratch/tap-wifi-dumbbell.cc
+: 1478321634:0;ifconfig|grep 192
+: 1478321701:0;pwd
+: 1478321704:0;cd scratch
+: 1478321705:0;ls
+: 1478321708:0;cd SDN-handover
+: 1478321709:0;ls
+: 1478321726:0;pwd
+: 1478321757:0;ls
+: 1478321765:0;mv main.cc
+: 1478321770:0;rm main.cc
+: 1478321777:0;mv SDN-handover.cc main.cc
+: 1478321789:0;cd $NS3
+: 1478321837:0;./waf --run SDN-handover --vis
+: 1478321911:0;cd src
+: 1478321911:0;ls
+: 1478322003:0;cd ofswitch13
+: 1478322003:0;l
+: 1478322007:0;cd model
+: 1478322008:0;ls
+: 1478322065:0;mv $NS3/scratch/SDN-handover/my-learning-controller.cc $NS3/scratch/SDN-handover/my-learning-controller.h ./
+: 1478322100:0;rm $NS3/scratch/SDN-handover/ofswitch13-controller.cc  NS3/scratch/SDN-handover/ofswitch13-controller.h
+: 1478322110:0;ls
+: 1478322117:0;cd $NS3/scratch
+: 1478322118:0;ls
+: 1478322119:0;cd SDN-handover
+: 1478322121:0;ls
+: 1478322132:0;rm ofswitch13-controller.h
+: 1478322135:0;cd ../..
+: 1478322145:0;./waf --run SDN-handover --vis
+: 1478322255:0;cd scratch
+: 1478322257:0;cd SDN-handover
+: 1478322257:0;ls
+: 1478322271:0;mv SDN-handover.cc main.cc
+: 1478322279:0;rm *.h
+: 1478322281:0;ls
+: 1478322287:0;rm my-learning-controller.cc ofswitch13-controller.cc
+: 1478322289:0;cd ../..
+: 1478322298:0;./waf --run SDN-handover --vis
+: 1478322331:0;./waf build
+: 1478322355:0;mv scratch/SDN-handover/main.cc scratch/SDN-handover/main.cc.bak
+: 1478322356:0;./waf build
+: 1478322503:0;cd src/ofswitch13/model
+: 1478322503:0;ls
+: 1478322523:0;cd ../
+: 1478322525:0;cd ..
+: 1478322526:0;ls
+: 1478322531:0;ll qos-controller
+: 1478322553:0;mkdir my-learning-controller
+: 1478322558:0;cd ofswitch13
+: 1478322559:0;ls
+: 1478322561:0;cd model
+: 1478322566:0;cd ../..
+: 1478322567:0;ls
+: 1478322571:0;cd my-learning-controller
+: 1478322574:0;mkdir model
+: 1478322576:0;cd ..
+: 1478322587:0;cd ofswitch13
+: 1478322588:0;ls
+: 1478322590:0;cd model
+: 1478322591:0;ls
+: 1478322621:0;mv my-learning-controller.cc my-learning-controller.h ../../my-learning-controller/model
+: 1478322626:0;cd ../../my-learning-controller/model
+: 1478322627:0;ls
+: 1478322667:0;cd $NS3
+: 1478322669:0;cd scratch
+: 1478322669:0;ls
+: 1478322671:0;cd SDN-handover
+: 1478322672:0;ls
+: 1478322691:0;rm main.cc.bak my-learning-controller.cc my-learning-controller.h ofswitch13-controller.cc ofswitch13-controller.h
+: 1478322692:0;ls
+: 1478322699:0;mv SDN-handover.cc main.cc
+: 1478322701:0;ls
+: 1478322702:0;cd ..
+: 1478322713:0;./waf --run SDN-handover --vis
+: 1478322738:0;cd src/qos-controller/model
+: 1478322739:0;ls
+: 1478322757:0;cd ..
+: 1478322934:0;cd $NS3
+: 1478322943:0;./waf --run SDN-handover --vis
+: 1478322991:0;cd scratch/SDN-handover
+: 1478322991:0;ls
+: 1478323005:0;rm  ofswitch13-controller.cc ofswitch13-controller.h
+: 1478323041:0;ls
+: 1478323052:0;mv SDN-handover.cc main.cc
+: 1478323053:0;ls
+: 1478323057:0;cd ..
+: 1478323066:0;./waf --run SDN-handover --vis
+: 1478323381:0;ll scratch/SDN-handover
+: 1478323387:0;date
+: 1478323412:0;rm  scratch/SDN-handover/ofswitch13-controller.cc scratch/SDN-handover/ofswitch13-controller.h
+: 1478323415:0;ll scratch/SDN-handover
+: 1478323424:0;cd scratch/SDN-handover
+: 1478323425:0;ls
+: 1478323428:0;ll
+: 1478323444:0;mv SDN-handover.cc main.cc
+: 1478323451:0;vi .DS_Store
+: 1478323461:0;rm .DS_Store
+: 1478323463:0;cd ../..
+: 1478323472:0;./waf --run SDN-handover --vis
+: 1478324090:0;cd scratch/SDN-handover
+: 1478324090:0;ls
+: 1478324098:0;mv SDN-handover.cc main.cc
+: 1478324101:0;cd ../..
+: 1478324104:0;./waf --run SDN-handover --vis
+: 1478324179:0;./waf --run trad-handover --vis
+: 1478324209:0;ll scratch/trad-handover.cc
+: 1478324210:0;date
+: 1478324217:0;./waf --run trad-handover --vis
+: 1478324296:0;gnuplot *.plt
+: 1478324328:0;date
+: 1478324443:0;./waf --run SDN-handover --vis
+: 1478325466:0;cd SDN-handover
+: 1478325467:0;ls
+: 1478325469:0;ll
+: 1478325487:0;wireshark SDN-handover-ofCtrl-15-1.pcap 2>/dev/null &
+: 1478325891:0;./waf --run SDN-handover --vis
+: 1478325971:0;./waf --run SDN-handover
+: 1478326097:0;wireshark SDN-handover-ofCtrl-15-1.pcap 2>/dev/null &
+: 1478326117:0;wireshark SDN-handover-ofCtrl-15-2.pcap 2>/dev/null &
+: 1478326429:0;./waf --run SDN-handover
+: 1478326450:0;wireshark SDN-handover-ofCtrl-15-2.pcap 2>/dev/null &
+: 1478326501:0;./waf --run SDN-handover
+: 1478326626:0;ll
+: 1478326642:0;wireshark SDN-handover-ofCtrl-15-1.pcap 2>/dev/null &
+: 1478326678:0;gnuplot *.plt
+: 1478326834:0;./waf --run trad-handover --vis
+: 1478326842:0;./waf --run trad-handover
+: 1478336557:0;cd ..
+: 1478336562:0;ll scratch
+: 1478336566:0;ll scratch/SDN-handover
+: 1478336587:0;mv scratch/SDN-handover/SDN-handover.cc scratch/SDN-handover/main.cc
+: 1478336607:0;./waf --run SDN-handover
+: 1478336692:0;./waf --run trad-handover
+: 1478336739:0;rm *.png
+: 1478336744:0;gnuplot *.plt
+: 1478336981:0;cd scratch/SDN-handover
+: 1478336983:0;ls
+: 1478336992:0;mv SDN-handover.cc main.cc
+: 1478336994:0;cd ..
+: 1478337003:0;./waf --run SDN-handover
+: 1478337047:0;./waf --run trad-handover
+: 1478337141:0;gnuplot *.plt
+: 1478337148:0;ll *.png
+: 1478337158:0;pwd
+: 1478338141:0;history|grep "vi *.click"
+: 1478338157:0;history|grep "vi"|grep " *.click"
+: 1478338170:0;cd ./src/click/examples/
+: 1478338171:0;ls
+: 1478338172:0;ll
+: 1478338186:0;vi nsclick-udp-client-server-wifi.cc
+: 1478338252:0;vi src/click/examples/nsclick-wifi-single-interface-promisc.click
+: 1478345725:0;ls
+: 1478345833:0;pwd
+: 1478345840:0;vi ~/.zshrc
+: 1478345883:0;source ~/.zshrc
+: 1478345901:0;vi nsclick-udp-client-server-wifi.cc
+: 1478345990:0;cd $NS3
+: 1478345997:0;./waf --run nsclick-udp-client-server-wifi
+: 1478346012:0;ll *.pcap
+: 1478346027:0;rm *.pcap
+: 1478346028:0;./waf --run nsclick-udp-client-server-wifi
+: 1478346034:0;ll *.pcap
+: 1478346068:0;wireshark nsclick-udp-client-server-wifi-2-0.pcap 2>/dev/null &
+: 1478346104:0;vi nsclick-udp-client-server-wifi.cc
+: 1478346126:0;vi $NS_CLICK_EXAMPLES/nsclick-udp-client-server-wifi.cc
+: 1478346210:0;ll *.pcap
+: 1478346229:0;vi Node4_in_eth0.pcap
+: 1478347299:0;pwd
+: 1478347326:0;ll scratch/SDN-handover
+: 1478347351:0;./waf --run SDN-handover
+: 1478347459:0;vi src/click/examples/nsclick-wifi-single-interface-promisc.click
+: 1478348099:0;./waf --run SDN-handover
+: 1478362904:0;ifconfig|grep 192
+: 1478505793:0;vi scratch/SDN-handover/main.cc
+: 1478505812:0;./waf --run SDN-handover --vis
+: 1478506030:0;pwd
+: 1478506070:0;ll scratch/SDN-handover
+: 1478506073:0;date
+: 1478506097:0;ll
+: 1478506103:0;ll scratch/SDN-handover/
+: 1478506105:0;date
+: 1478506113:0;./waf --run SDN-handover --vis
+: 1478506150:0;cd scratch
+: 1478506151:0;ls
+: 1478506155:0;rm SDN-handover.cc
+: 1478506159:0;cd SDN-handover
+: 1478506160:0;ls
+: 1478506164:0;cd ../..
+: 1478506168:0;./waf --run SDN-handover --vis
+: 1478506728:0;./waf --run trad-handover --vis
+: 1478508609:0;ifconfig
+: 1478510990:0;./waf --run SDN-handover --vis
+: 1478512174:0;ls
+: 1478512180:0;cd src
+: 1478512181:0;ls
+: 1478512183:0;ll
+: 1478512671:0;cd wifi
+: 1478512672:0;ls
+: 1478512674:0;cd examples
+: 1478512674:0;ls
+: 1478536844:0;cd ../..
+: 1478536845:0;ls
+: 1478536846:0;cd ..
+: 1478536858:0;pwd
+: 1478536861:0;cd ~/repos
+: 1478536862:0;ls
+: 1478536867:0;git clone https://github.com/hanyassasa87/ns3-802.11ad
+: 1478536888:0;ifconfig |grep 192
+: 1478536908:0;man syscalls
+: 1478537600:0;vi ~/.zshrc
+: 1478537615:0;source ~/.zshrc
+: 1478537617:0;man syscalls
+: 1478537926:0;man strace
+: 1478537964:0;ls
+: 1478537976:0;touch write_test.c
+: 1478537980:0;vi write_test.c
+: 1478538087:0;gcc write_test.c -o write_test.out
+: 1478538451:0;man write
+: 1478538476:0;who
+: 1478538487:0;man write
+: 1478538494:0;mesg
+: 1478538555:0;vi write_test.c
+: 1478538566:0;gcc write_test.c -o write_test.out
+: 1478538569:0;./write_test.out
+: 1478538578:0;vi write_test.c
+: 1478538601:0;gcc write_test.c -o write_test.out
+: 1478538603:0;./write_test.out
+: 1478538622:0;vi write_test.c
+: 1478538794:0;strace ./write_test.out
+: 1478538874:0;sudo apt-get install radare2
+: 1478538896:0;man radare2
+: 1478538927:0;radare2 -d ./write_test.out
+: 1478539335:0;clear
+: 1478539401:0;radare2 -d ./write_test.out
+: 1478539536:0;clear
+: 1478539573:0;radare2 -d ./write_test.out
+: 1478539654:0;clear
+: 1478539671:0;pwd
+: 1478539674:0;radare2 -d ./write_test.out
+: 1478539852:0;df -h
+: 1478541260:0;python -c "print 'a'*65"
+: 1478541383:0;ifconfig|grep 192
+: 1478541387:0;ls
+: 1478541397:0;rm write*
+: 1478541400:0;ls
+: 1478541418:0;nc -l 4444 > stack0.c
+: 1478541439:0;ls
+: 1478541445:0;clear
+: 1478541450:0;file stack0.c
+: 1478541463:0;gcc stack0.c -o stack0
+: 1478541563:0;gcc --version
+: 1478541592:0;gcc --version|head -1
+: 1478592903:0;ifconfig |grep 192
+: 1478592924:0;./waf --run trad-handover --vis
+: 1478594486:0;ifconfig|grep 192
+: 1478594488:0;pwd
+: 1478594528:0;ls
+: 1478594531:0;ls scratch
+: 1478594541:0;ls scratch/trad-handover.cc
+: 1478594545:0;ll scratch/trad-handover.cc
+: 1478594565:0;./waf --run trad-handover --vis
+: 1478597764:0;ll scratch/trad-handover.cc
+: 1478597766:0;date
+: 1478597777:0;vi scratch/trad-handover.cc
+: 1478597802:0;./waf --run trad-handover --vis
+: 1478603450:0;cd $NS3
+: 1478603451:0;ls
+: 1478603455:0;vi scratch/trad-handover.cc
+: 1478603474:0;date scratch/trad-handover.cc
+: 1478603481:0;ll scratch/trad-handover.cc
+: 1478603483:0;date
+: 1478603523:0;ifconfig|grep 192
+: 1478603556:0;nc -l 4444 > scratch/trad-handover.cc
+: 1478603577:0;vi scratch/trad-handover.cc
+: 1478603947:0;./waf --run trad-handover --vis
+: 1478605668:0;cd $NS3
+: 1478605669:0;ls
+: 1478605671:0;cd src
+: 1478605673:0;ls 
+: 1478605676:0;cd visualizer
+: 1478605679:0;ls
+: 1478605698:0;git status
+: 1478605733:0;cd $NS3
+: 1478605734:0;ls
+: 1478605740:0;cd src/visualizer/visualizer
+: 1478605740:0;ls
+: 1478605743:0;git branch
+: 1478605755:0;git diff master branch-for-ofswitch13
+: 1478605766:0;git checkout master
+: 1478605772:0;vi base.py
+: 1478605787:0;vi core.py
+: 1478605896:0;git status
+: 1478605908:0;git add --all;git commit -m "update comment"
+: 1478605938:0;git diff branch-for-goal-topo branch-for-ofswitch13
+: 1478605950:0;git branch
+: 1478606004:0;git pull origin branch-for-goal-topo
+: 1478606079:0;vi ~/.zshrc
+: 1478606110:0;source  ~/.zshrc
+: 1478606124:0;ping 172.23.22.170
+: 1478606131:0;ping 172.23.22.130
+: 1478606141:0;ping 172.18.125.204
+: 1478606154:0;git_proxy_windows
+: 1478606159:0;git pull origin branch-for-goal-topo
+: 1478606165:0;git branch
+: 1478606180:0;git pull origin/branch-for-goal-topo branch-for-goal-topo
+: 1478606203:0;git checkout branch-for-goal-topo
+: 1478606209:0;git branch
+: 1478606222:0;git diff branch-for-goal-topo master
+: 1478606257:0;./waf --run trad-handover --vis
+: 1478606305:0;git diff branch-for-goal-topo master
+: 1478606331:0;vi core.py
+: 1478606377:0;git diff branch-for-goal-topo master
+: 1478606393:0;vi core.py
+: 1478606411:0;./waf --run trad-handover --vis
+: 1478606499:0;vi core.py
+: 1478606518:0;./waf --run trad-handover --vis
+: 1478608004:0;cd $NS3
+: 1478608005:0;ls
+: 1478608008:0;cd trad-handover
+: 1478608009:0;ls
+: 1478608010:0;ll
+: 1478608030:0;cd  $NS3
+: 1478608031:0;ls
+: 1478608066:0;cd trad-handover
+: 1478608066:0;ls
+: 1478608068:0;ll
+: 1478608166:0;ls -tr
+: 1478608170:0;ls -trl
+: 1478608174:0;ls -trlh
+: 1478608186:0;ls -tlh
+: 1478608191:0;ls -trlh
+: 1478608205:0;rm trad-handover-ap3-sta1-wifi-14-0.pcap
+: 1478608207:0;ls -trlh
+: 1478608242:0;wireshark trad-handover-ap3-sta1-wifi-25-0.pcap 2>/dev/null &
+: 1478608691:0;./waf --run trad-handover --vis
+: 1478608915:0;wireshark trad-handover-ap3-sta1-wifi-25-0.pcap 2>/dev/null &
+: 1478612072:0;wireshark trad-handover-ap3-sta1-wifi-25-0.pcap 2>/dev/null &ll
+: 1478612092:0;ll
+: 1478612105:0;rm trad-handover-ap3-sta1-wifi-35-0.pcap
+: 1478612106:0;ll
+: 1478612127:0;wireshark trad-handover-ap3-wifi-4-1.pcap 2>/dev/null &
+: 1478612253:0;wireshark trad-handover-ap3-sta1-wifi-25-0.pcap 2>/dev/null &ll
+: 1478612382:0;wireshark trad-handover-ap3-sta1-wifi-25-0.pcap 2>/dev/null &
+: 1478612471:0;./waf --run trad-handover --vis
+: 1478612573:0;wireshark trad-handover-ap3-sta1-wifi-25-0.pcap 2>/dev/null &
+: 1478613558:0;wireshark trad-handover-ap2-wifi-3-1.pcap 2>/dev/null &
+: 1478613767:0;wireshark trad-handover-ap1-wifi-2-1.pcap 2>/dev/null &
+: 1478613878:0;wireshark trad-handover-ap3-sta1-wifi-25-0.pcap 2>/dev/null &
+: 1478679516:0;htop
+: 1478679540:0;sudo shutdown -h now
+: 1478679609:0;ifconfig|grep 192
+: 1478679617:0;cd $NS3
+: 1478679622:0;ls
+: 1478679625:0;cd trad-handover
+: 1478679626:0;ls
+: 1478679642:0;wireshark trad-handover-ap3-sta1-wifi-25-0.pcap 2>/dev/null &
+: 1478679649:0;ll
+: 1478679703:0;wireshark trad-handover-ap1-wifi-2-1.pcap 2>/dev/null &
+: 1478679795:0;wireshark trad-handover-ap2-wifi-3-1.pcap 2>/dev/null &
+: 1478680052:0;wireshark trad-handover-ap3-wifi-4-1.pcap 2>/dev/null &
+: 1478680195:0;cd trad-handover
+: 1478680196:0;ls
+: 1478680197:0;ll
+: 1478680255:0;pwd
+: 1478680359:0;ll
+: 1478680683:0;cd ..
+: 1478680687:0;cd -
+: 1478680688:0;ls
+: 1478680690:0;rm *
+: 1478680694:0;ls
+: 1478680695:0;cd ..
+: 1478680700:0;ll scratch/trad-handover.cc
+: 1478680702:0;date
+: 1478680712:0;./waf --run trad-handover --vis
+: 1478680740:0;htop
+: 1478680840:0;cd trad-handover
+: 1478680841:0;ls
+: 1478680842:0;ll 
+: 1478680844:0;date
+: 1478680897:0;wireshark trad-handover-ap1-wifi-2-1.pcap 2>/dev/null &
+: 1478681130:0;cd $NS3
+: 1478681257:0;./waf --run trad-handover --vis
+: 1478681404:0;wireshark trad-handover-ap1-wifi-2-1.pcap 2>/dev/null &
+: 1478681471:0;wireshark trad-handover-ap2-wifi-3-1.pcap 2>/dev/null &
+: 1478681546:0;wireshark trad-handover-ap3-wifi-4-1.pcap 2>/dev/null &
+: 1478681848:0;wireshark trad-handover-ap2-wifi-3-1.pcap 2>/dev/null &
+: 1478682650:0;gnuplot *.plt
+: 1478682663:0;rm SDN*.plt
+: 1478682666:0;gnuplot *.plt
+: 1478682728:0;rm SDN*.png
+: 1478683689:0;./waf --run trad-handover
+: 1478683750:0;gnuplot *.plt
+: 1478683792:0;pwd
+: 1478683872:0;ls *.png
+: 1478683885:0;history|grep gzip
+: 1478683889:0;history|grep gunzip
+: 1478687738:0;ll
+: 1478687790:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478688626:0;./waf --run trad-handover --vis
+: 1478689783:0;ll scratch/trad-handover.cc
+: 1478689784:0;date
+: 1478689792:0;./waf --run trad-handover --vis
+: 1478692262:0;ll
+: 1478692348:0;./waf --run trad-handover --vis
+: 1478692681:0;ll scratch/trad-handover.cc
+: 1478692681:0;date
+: 1478692688:0;./waf --run trad-handover --vis
+: 1478692999:0;cd $NS3
+: 1478693010:0;cd src/visualizer/visualizer
+: 1478693010:0;ls
+: 1478693023:0;gedit core.py 2>/dev/null &
+: 1478693324:0;gedit base.py 2>/dev/null &
+: 1478695115:0;gedit scratch/trad-handover.cc 2>/dev/null &
+: 1478695932:0;ll
+: 1478695940:0;rm trad-handover-sta-wifi-35-0.pcap
+: 1478695942:0;ll
+: 1478695964:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478696297:0;cd $NS3
+: 1478696324:0;gedit scratch/trad-handover.cc 2>/dev/null &
+: 1478696357:0;./waf --run trad-handover --vis
+: 1478696443:0;ll
+: 1478696456:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478697149:0;wireshark trad-handover-ap1-wifi-2-1.pcap 2>/dev/null &
+: 1478697211:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478697351:0;./waf --run trad-handover --vis
+: 1478697371:0;ls
+: 1478697373:0;ll
+: 1478697377:0;rm *
+: 1478697382:0;./waf --run trad-handover
+: 1478697449:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478697924:0;./waf --run trad-handover
+: 1478698037:0;ll
+: 1478698043:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478712791:0;find -writable
+: 1478712808:0;clear
+: 1478782843:0;cd $NS3
+: 1478782850:0;./waf --run trad-handover --vis
+: 1478784111:0;clear
+: 1478784118:0;ifconfig|grep 192
+: 1478784159:0;clera
+: 1478784162:0;clear
+: 1478784176:0;./waf --run trad-handover --vis
+: 1478787339:0;./waf --run trad-handover
+: 1478787727:0;./waf --run trad-handover --vis
+: 1478791399:0;vi scratch/trad-handover.cc
+: 1478791702:0;./waf --run trad-handover --vis
+: 1478796889:0;cd trad-handover
+: 1478796890:0;ls
+: 1478796891:0;ll
+: 1478796914:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478797031:0;cd ..
+: 1478797036:0;./waf --run trad-handover --vis
+: 1478797688:0;cd trad-handover
+: 1478797689:0;ls
+: 1478797690:0;ll
+: 1478797705:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478797753:0;wireshark trad-handover-ap3-wifi-4-1.pcap 2>/dev/null &
+: 1478797794:0;cd $NS3
+: 1478842995:0;date
+: 1478843000:0;ll scratch/trad-handover.cc
+: 1478843024:0;./waf --run trad-handover --vis
+: 1478843716:0;vi scratch/trad-handover.cc
+: 1478843798:0;./waf --run trad-handover --vis
+: 1478843914:0;wireshark trad-handover-ap3-wifi-4-1.pcap 2>/dev/null &
+: 1478843931:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478844037:0;./waf --run trad-handover --vis
+: 1478844272:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1478844746:0;./waf --run trad-handover --vis
+: 1478845244:0;gnuplot *.plt
+: 1478845392:0;vi scratch/trad-handover.cc
+: 1478845412:0;./waf --run trad-handover --vis
+: 1478860870:0;gnuplot *.plt
+: 1478860976:0;ll *.png
+: 1478861028:0;pwd
+: 1478861048:0;ifconfig|grep 192
+: 1478945281:0;vi ~/.zshrc
+: 1479128320:0;ifconfig|grep 192
+: 1479128355:0;pwd
+: 1479128402:0;ll scratch
+: 1479128407:0;ll scratch/SDN-handover
+: 1479128418:0;cd ../
+: 1479128421:0;cd -
+: 1479128429:0;rm -rf SDN-handover
+: 1479128436:0;ll scratch
+: 1479128439:0;date
+: 1479128453:0;./waf --run SDN-handover
+: 1479129675:0;ll scratch/SDN-handover
+: 1479129676:0;date
+: 1479129680:0;./waf --run SDN-handover
+: 1479129890:0;ll scratch
+: 1479129898:0;rm scratch/SDN-handover.cc
+: 1479129901:0;./waf --run SDN-handover
+: 1479130190:0;ls
+: 1479130197:0;rm *.pcap
+: 1479130198:0;ls
+: 1479130209:0;mkdir SDN-handover
+: 1479130212:0;./waf --run SDN-handover
+: 1479130273:0;ll *.plt
+: 1479130274:0;date
+: 1479130284:0;gnuplot *.plt
+: 1479130314:0;gnuplot
+: 1479209883:0;clear
+: 1479209884:0;ifconfig
+: 1479209946:0;./waf --run SDN-handover
+: 1479210044:0;gnuplot *.plt
+: 1479210080:0;l
+: 1479210090:0;date
+: 1479211768:0;./waf --run SDN-handover
+: 1479211854:0;ls
+: 1479211861:0;gnuplot *.plt
+: 1479212031:0;./waf --run SDN-handover
+: 1479212114:0;rm *.eps
+: 1479212121:0;rm *.png
+: 1479212129:0;gnuplot *.plt
+: 1479212248:0;./waf --run SDN-handover
+: 1479212252:0;./waf --run SDN-handover --vis
+: 1479212728:0;ls *.pcap
+: 1479212733:0;cd SDN-handover
+: 1479212734:0;ls
+: 1479212736:0;date
+: 1479212737:0;ll
+: 1479212811:0;rm SDN-handover-switch1*.pcap
+: 1479212812:0;ll
+: 1479213017:0;wireshark SDN-handover-ap3-wifi-4-1.pcap 2>/dev/null &
+: 1479213052:0;wireshark SDN-handover-sta-wifi-14-0.pcap 2>/dev/null &
+: 1479213477:0;cd ..
+: 1479213489:0;./waf --run SDN-handover --vis
+: 1479213761:0;ll
+: 1479213762:0;date
+: 1479213767:0;wireshark SDN-handover-sta-wifi-14-0.pcap 2>/dev/null &
+: 1479215481:0;cd
+: 1479215482:0;ls
+: 1479215494:0;rm stack0
+: 1479215497:0;rm stack0.c 
+: 1479215879:0;cd -
+: 1479215882:0;wireshark SDN-handover-sta-wifi-14-0.pcap 2>/dev/null &
+: 1479276997:0;ll /var/log/auth.log
+: 1479277003:0;vi /var/log/auth.log
+: 1479277052:0;vi ~/.zshrc
+: 1479277148:0;source ~/.zshrc
+: 1479277154:0;ping 172.18.125.204
+: 1479277173:0;iptables -l
+: 1479277175:0;iptables -L
+: 1479277182:0;sudo iptables -L
+: 1479277200:0;proxy_windows
+: 1479277211:0;sudo apt-get install iftop
+: 1479277344:0;sudo apt-get update
+: 1479277403:0;vi /etc/apt/source.list
+: 1479277407:0;vi /etc/apt/sources.list
+: 1479277428:0;cd /etc/apt/
+: 1479277429:0;ls
+: 1479277447:0;vi sources.bak
+: 1479277475:0;mv sources.bak sources.list.us
+: 1479277480:0;sudo mv sources.bak sources.list.us
+: 1479277485:0;vi sources.list.old
+: 1479277501:0;diff sources.list.old sources.list.us
+: 1479277514:0;sudo rm sources.list.old
+: 1479277516:0;ls
+: 1479277536:0;mv sources.list sources.list.ustc
+: 1479277543:0;sudo mv sources.list sources.list.ustc
+: 1479277555:0;sudo mv sources.list.us sources.list.ubuntu
+: 1479277645:0;vi ~/.zshrc
+: 1479278366:0;echo $$
+: 1479278377:0;echo $!
+: 1479278969:0;source ~/.zshrc
+: 1479278977:0;apt_ubuntu
+: 1479278992:0;ls
+: 1479279012:0;vi ~/.zshrc
+: 1479279032:0;source ~/.zshrc
+: 1479279036:0;apt_ubuntu
+: 1479279044:0;ls
+: 1479279051:0;vi sources.list
+: 1479279058:0;apt_ustc
+: 1479279060:0;vi sources.list
+: 1479279064:0;cd
+: 1479279072:0;apt_ubuntu
+: 1479279078:0;sudo apt-get update
+: 1479279141:0;echo $http_proxy
+: 1479279152:0;ping 172.18.125.204
+: 1479279225:0;vi /etc/apt/apt.conf
+: 1479279260:0;vi ~/.zshrc
+: 1479279285:0;source ~/.zshrc
+: 1479279292:0;sudo apt-get update
+: 1479279331:0;vi ~/.zshrc
+: 1479279352:0;source ~/.zshrc
+: 1479279389:0;vi /etc/apt/ap.conf
+: 1479279443:0;sudo vi /etc/apt/ap.conf
+: 1479279475:0;sudo apt-get update
+: 1479279515:0;sudo vi /etc/apt/ap.conf
+: 1479279546:0;sudo apt-get update
+: 1479279599:0;sudo rm /etc/apt/ap.conf
+: 1479279617:0;vi ~/.zshrc
+: 1479279674:0;echo $http_proxy
+: 1479279681:0;source ~/.zshrc
+: 1479279682:0;echo $http_proxy
+: 1479279713:0;source ~/.zshrc
+: 1479279717:0;echo $http_proxy
+: 1479279726:0;proxy_off
+: 1479279727:0;echo $http_proxy
+: 1479279742:0;vi ~/.zshrc
+: 1479279817:0;unset http_proxy
+: 1479279820:0;echo $http_proxy
+: 1479279834:0;echo $https_proxy
+: 1479279840:0;unset https_proxy
+: 1479279842:0;echo $https_proxy
+: 1479279854:0;sudo apt-get update
+: 1479279901:0;sudo apt-get install iftop
+: 1479279993:0;iftop
+: 1479279997:0;sudo iftop
+: 1479280003:0;ifconfig
+: 1479280012:0;sudo iftop -i lo
+: 1479280025:0;sudo apt-get install tsocks  
+: 1479280068:0;vi /etc/tsocks.conf 
+: 1479280116:0;sudo vi /etc/tsocks.conf 
+: 1479280208:0;vi /etc/tsocks.conf 
+: 1479280214:0;sudo vi /etc/tsocks.conf 
+: 1479280351:0;tsocks apt-get update
+: 1479280357:0;sudo tsocks apt-get update
+: 1479280403:0;ifconfig|grep 192
+: 1479280414:0;ping 172.18.125.204
+: 1479280422:0;sudo tsocks apt-get update
+: 1479283276:0;clear
+: 1479283293:0;cd $NS3
+: 1479283303:0;./waf --run SDN-handover
+: 1479283377:0;ls
+: 1479283386:0;ll
+: 1479283387:0;date
+: 1479283397:0;vi ~/.zshrc
+: 1479283407:0;ll
+: 1479283410:0;date
+: 1479283422:0;source ~/.zshrc
+: 1479283425:0;ll
+: 1479283428:0;date
+: 1479283441:0;rm *.png
+: 1479283443:0;ll
+: 1479283463:0;rm *.eps
+: 1479283469:0;gnuplot *.plt
+: 1479283471:0;ll
+: 1479283479:0;date
+: 1479283499:0;rm trad-handover*.plt
+: 1479283503:0;rm *.png
+: 1479283504:0;ll
+: 1479283806:0;sudo apt-get update
+: 1479284016:0;cd build/debug/src/tools/examples
+: 1479284021:0;ls
+: 1479284043:0;cd src
+: 1479284043:0;ls
+: 1479284053:0;cd ..
+: 1479284068:0;find . -name "gnuplot-example.cc"
+: 1479284074:0;vi ./src/stats/examples/gnuplot-example.cc
+: 1479284330:0;./waf --run SDN-handover
+: 1479284405:0;gnuplot *.plt
+: 1479284434:0;gnuplot
+: 1479284480:0;./waf --run SDN-handover
+: 1479284679:0;gnuplot *.plt
+: 1479285118:0;./waf --run SDN-handover
+: 1479285188:0;gnuplot *.plt
+: 1479285252:0;ll *.eps
+: 1479285253:0;date
+: 1479285834:0;rm *.eps
+: 1479285838:0;./waf --run SDN-handover
+: 1479285849:0;vi scratch/SDN-handover/main.cc
+: 1479285927:0;ll *.plt
+: 1479285933:0;gnuplot *.plt
+: 1479285939:0;ll *.eps
+: 1479286027:0;vi SDN-handover__DelayVSTime.plt
+: 1479286048:0;gnuplot
+: 1479286263:0;gnuplot SDN-handover__DelayVSTime.plt
+: 1479286270:0;ll *.eps
+: 1479286296:0;vi SDN-handover__DelayVSTime.plt
+: 1479286325:0;gnuplot SDN-handover__DelayVSTime.plt
+: 1479286343:0;vi SDN-handover__DelayVSTime.plt
+: 1479286353:0;gnuplot SDN-handover__DelayVSTime.plt
+: 1479286411:0;vi SDN-handover__DelayVSTime.plt
+: 1479286511:0;rm *.plt *.eps
+: 1479286527:0;./waf --run SDN-handover
+: 1479286605:0;ll *.plt
+: 1479286611:0;gnuplot *.plt
+: 1479286626:0;ll *.eps
+: 1479286772:0;./waf --run SDN-handover
+: 1479286833:0;ll *.eps
+: 1479286837:0;rm *.eps
+: 1479286841:0;ll *.plt
+: 1479286846:0;gnuplot *.plt
+: 1479286848:0;ll *.plt
+: 1479286851:0;rm *.eps
+: 1479286884:0;ls
+: 1479287055:0;./waf --run SDN-handover
+: 1479287160:0;gnuplot *.plt
+: 1479287164:0;ll *.eps
+: 1479287197:0;vi scratch/SDN-handover/main.cc
+: 1479287242:0;./waf --run SDN-handover
+: 1479287306:0;gnuplot *.plt
+: 1479287543:0;gnuplot
+: 1479287686:0;ll *.plt
+: 1479287690:0;vi SDN-handover__JitterVSTime.plt
+: 1479287893:0;./waf --run SDN-handover
+: 1479287958:0;gnuplot *.plt
+: 1479287994:0;./waf --run SDN-handover
+: 1479288049:0;gnuplot *.plt
+: 1479288067:0;vi SDN-handover__ThroughputVSTime.plt
+: 1479288116:0;./waf --run SDN-handover;gnuplot *.plt
+: 1479288284:0;vi SDN-handover__ThroughputVSTime.plt
+: 1479288322:0;./waf --run SDN-handover;gnuplot *.plt
+: 1479288443:0;vi SDN-handover__ThroughputVSTime.plt
+: 1479300166:0;./waf --run scratch/gragh
+: 1479305128:0;clear
+: 1479305139:0;./waf --run trad-handover --vis
+: 1479305178:0;cd ~/Desktop
+: 1479305178:0;ls
+: 1479305182:0;ll
+: 1479305255:0;nc 192.168.170.1 4444 < "Screenshot from 2016-11-16 06-06-06.png"
+: 1479372556:0;ifconfig|grep 192
+: 1479372602:0;pwd
+: 1479372631:0;./waf --run trad-handover --vis
+: 1479373143:0;sudo shutdown -h now
+: 1479373588:0;ifconfig|grep 192
+: 1479373593:0;cd $NS3
+: 1479373635:0;pwd
+: 1479373652:0;cd $NS3
+: 1479373661:0;./waf --run trad-handover --vis
+: 1479382379:0;cd $NS3
+: 1479382380:0;clear
+: 1479382393:0;vi ~/.zshrc
+: 1479382433:0;find . -name "*.cc" | xargs grep "OnOffHelper"
+: 1479382464:0;find exmaples/ -name "*.cc" | xargs grep "OnOffHelper"
+: 1479382471:0;find examples/ -name "*.cc" | xargs grep "OnOffHelper"
+: 1479382489:0;vi examples/tcp/tcp-star-server.cc
+: 1479382625:0;vi examples/wireless/wifi-hidden-terminal.cc
+: 1479382765:0;vi examples/tcp/tcp-star-server.cc
+: 1479382982:0;cd $NS3
+: 1479382992:0;vi ~/.zshrc
+: 1479383022:0;find examples/ -name "*.cc" | xargs grep "OnOffHelper"
+: 1479383099:0;vi examples/tcp/tcp-nsc-lfn.cc
+: 1479384406:0;./waf --run trad-handover --vis
+: 1479384424:0;vi scratch/trad-handover.cc
+: 1479384547:0;cd trad-handover
+: 1479384548:0;ll
+: 1479384550:0;date
+: 1479384575:0;wireshark trad-handover-sta-wifi-30-0.pcap 2>/dev/null &
+: 1479384673:0;gnuplot *.plt
+: 1479384686:0;rm SDN*.plt
+: 1479385542:0;./waf --run trad-handover --vis
+: 1479385971:0;gnuplot *.plt
+: 1479386100:0;./waf --run trad-handover --vis
+: 1479386624:0;ll *.png
+: 1479386630:0;rm SDN-handover__DelayVSTime.png
+: 1479386654:0;zip *.png trad-handover.zip
+: 1479388629:0;zip  trad-handover-diagram-2016_11_17.zip *.png
+: 1479388639:0;ls *.zip
+: 1479388708:0;nc 192.168.170.1 4444 < trad-handover-diagram-2016_11_17.zip
+: 1479388799:0;./waf --run trad-handover --vis
+: 1479388917:0;gnuplot *.plt
+: 1479388981:0;./waf --run trad-handover --vis
+: 1479389064:0;gnuplot *.plt
+: 1479389071:0;rm *.png
+: 1479389145:0;ll *.eps
+: 1479389154:0;rm SDN*.eps
+: 1479389194:0;vi README.md
+: 1479389503:0;zip trad-handover-2016_11_17,zip *.eps README.md
+: 1479389509:0;ls *.zip
+: 1479389522:0;zip trad-handover-2016_11_17.zip *.eps README.md
+: 1479389525:0;ls *.zip
+: 1479389531:0;rm trad-handover-2016_11_17,zip.zip
+: 1479389533:0;ls *.zip
+: 1479389550:0;ll *.zip
+: 1479389554:0;which ll
+: 1479389640:0;mv trad-handover-diagram-2016_11_17.zip trad-handover-diagram-using-onoff-tcp-2016_11_17.zip
+: 1479389716:0;mv trad-handover-2016_11_17.zip trad-handover-diagram-using-onoff-tcp-2016_11_17-eps.zip
+: 1479389718:0;ls *.zip
+: 1479389773:0;nc 192.168.170.1 4444 < trad-handover-diagram-using-onoff-tcp-2016_11_17-eps.zip
+: 1479390454:0;find examples/ -name "*.cc" |xargs grep "SetAttribute & BulkSendHelper"
+: 1479390458:0;find examples/ -name "*.cc" |xargs grep "SetAttribute"
+: 1479390470:0;find examples/ -name "*.cc" |xargs grep "BulkSendHelper"
+: 1479390482:0;vi examples/tcp/tcp-bulk-send.cc
+: 1479390518:0;vi examples/tcp/tcp-variants-comparison.cc
+: 1479390619:0;find . -name "*.cc" |xargs grep "BulkSendHelper"
+: 1479390675:0;find . -name "*.cc" |xargs grep "BulkSendHelper"|grep "SetAttribute"
+: 1479390720:0;vi examples/tcp/tcp-variants-comparison.cc
+: 1479390846:0;find . -name "*.cc" |xargs grep "BulkSendHelper"
+: 1479390870:0;vi ./src/lte/test/test-lte-x2-handover-measures.cc
+: 1479390908:0;vi ./src/internet/examples/codel-vs-droptail-basic-test.cc
+: 1479391038:0;vi ./src/internet/examples/codel-vs-droptail-asymmetric.cc
+: 1479391183:0;vi ./src/ofswitch13/test/ofswitch13-simple-transmission.cc
+: 1479391284:0;./waf --run trad-handover --vis
+: 1479391402:0;gnuplot *.plt
+: 1479391420:0;ll README.md
+: 1479391424:0;ll README
+: 1479391429:0;vi README
+: 1479391444:0;vi README.md
+: 1479391642:0;zip trad-handover-diagram-using-bulksend-tcp-2016_11_17-eps.zip *.eps README.md
+: 1479391682:0;nc 192.168.170.1 4444 < trad-handover-diagram-using-onoff-tcp-2016_11_17-eps.zip
+: 1479391731:0;nc 192.168.170.1 4444 < trad-handover-diagram-using-bulksend-tcp-2016_11_17-eps.zip
+: 1479400554:0;./waf --run trad-handover --vis
+: 1479400651:0;gnuplot *.plt
+: 1479400750:0;zip trad-handover-diagram-using-bulksend-tcp-2016_11_17-eps.zip *.eps README.md
+: 1479400796:0;nc 192.168.170.1 4444 < trad-handover-diagram-using-bulksend-tcp-2016_11_17-eps.zip
+: 1479400907:0;./waf --run trad-handover --vis
+: 1479403797:0;echo $BAKE_HOME
+: 1479403828:0;echo $PYTHONPATH
+: 1479403836:0;vi ~/.zshrc
+: 1479403859:0;cd 
+: 1479403861:0;ls
+: 1479403863:0;cd repos
+: 1479403865:0;ls
+: 1479403876:0;cd ns-3-allinone
+: 1479403877:0;ls
+: 1479403880:0;cd bake
+: 1479403881:0;ls
+: 1479403888:0;hg status
+: 1479403894:0;cd bake
+: 1479403895:0;ls
+: 1479403904:0;cd ..
+: 1479403932:0;export BAKE_HOME=`pwd`/bake
+: 1479403951:0;pwd
+: 1479403960:0;vi ~/.zshrc
+: 1479404005:0;ls
+: 1479404011:0;source ~/.zshrc
+: 1479404025:0;mkdir dce
+: 1479404028:0;cd dce
+: 1479404068:0;bake.py configure -e dce-ns3-1.9
+: 1479404108:0;echo $BAKE_HOME
+: 1479404125:0;echo $PYTHONPATH
+: 1479404150:0;vi ~/.zshrc
+: 1479404177:0;source ~/.zshrc
+: 1479404184:0;vi ~/.zshrc
+: 1479404205:0;cd ..
+: 1479404209:0;ls
+: 1479404232:0;pwd
+: 1479404235:0;cd bake
+: 1479404235:0;ls
+: 1479404237:0;cd ..
+: 1479404243:0;ls
+: 1479404254:0;cd bake
+: 1479404257:0;ls
+: 1479404265:0;vi bake.py
+: 1479404293:0;bake.py configure -e dce/dce-ns3-1.9
+: 1479404298:0;./bake.py configure -e dce/dce-ns3-1.9
+: 1479404312:0;./bake.py configure -e dce-ns3-1.9
+: 1479404315:0;ls
+: 1479404324:0;cd dce
+: 1479404325:0;ls
+: 1479404326:0;cd ..
+: 1479404342:0;./bake.py download
+: 1479406296:0;vi ~/.zshrc
+: 1479406311:0;source ~/.zshrc
+: 1479406312:0;cd ..
+: 1479406321:0;cd bake
+: 1479406322:0;ls
+: 1479406331:0;ll
+: 1479406332:0;date
+: 1479406340:0;cd ..
+: 1479406341:0;ls
+: 1479406352:0;mkdir dce
+: 1479406355:0;cd dce
+: 1479406393:0;bake.py configure -e dce-ns3-1.9
+: 1479406398:0;bake.py download
+: 1479406792:0;ls
+: 1479406795:0;cd cd source/ns-3-dce
+: 1479406798:0;cd source/ns-3-dce
+: 1479406799:0;ls
+: 1479406836:0;./waf --run dce-iperf
+: 1479406844:0;cd ../..
+: 1479406858:0;bake.py build
+: 1479407512:0;df -h
+: 1479407532:0;sudo fdisk -l
+: 1479407696:0;free -h
+: 1479407752:0;df -h
+: 1479407770:0;cd source
+: 1479407770:0;ls
+: 1479407791:0;cd ns-3-dce
+: 1479407801:0;./waf --run dce-iperf
+: 1479407810:0;./waf configure
+: 1479408518:0;free -h
+: 1479408531:0;cd $BAKE_HOME
+: 1479408534:0;ls
+: 1479408540:0;cd repos
+: 1479408542:0;ls
+: 1479408551:0;cd ns-3-allinone
+: 1479408552:0;ls
+: 1479408558:0;cd bake
+: 1479408559:0;ls
+: 1479408566:0;cd dce
+: 1479408567:0;ls
+: 1479408606:0;ifconfig|grep 192
+: 1479408613:0;ifconfig
+: 1479408625:0;df -h
+: 1479408633:0;ls
+: 1479408635:0;cd ..
+: 1479408674:0;pwd
+: 1479408678:0;cd ..
+: 1479408679:0;ls
+: 1479408682:0;cd dce
+: 1479408682:0;ls
+: 1479408685:0;cd ..
+: 1479408692:0;rm -rf dce
+: 1479408695:0;df -h
+: 1479408702:0;cd bake
+: 1479408703:0;ls
+: 1479408720:0;echo $PATHONPATH
+: 1479408761:0;sudo shutdown -r now
+: 1479408840:0;ls
+: 1479408846:0;ifconfig
+: 1479408856:0;cd repos
+: 1479408859:0;cd ns-3-allinone
+: 1479408864:0;cd ..
+: 1479408868:0;cd ns-3-dev
+: 1479408868:0;ls
+: 1479408889:0;cd ..
+: 1479408892:0;cd ns-3-allinone
+: 1479408893:0;ls
+: 1479408918:0;export BAKE_HOME=`pwd`/bake\
+export PATH=$PATH:$BAKE_HOME\
+export PYTHONPATH=$PYTHONPATH:$BAKE_HOME
+: 1479408954:0;ls
+: 1479408961:0;cd netbee
+: 1479408962:0;ls
+: 1479408965:0;cd src
+: 1479408966:0;ls
+: 1479408971:0;cd ofsoftswitch13
+: 1479408973:0;ls
+: 1479408977:0;cd ns-3.24
+: 1479408980:0;ls
+: 1479408984:0;cd ..
+: 1479408989:0;ls
+: 1479409007:0;cd ..
+: 1479409009:0;ls
+: 1479409021:0;cd ..
+: 1479409023:0;ls
+: 1479409027:0;cd ..
+: 1479409029:0;ls
+: 1479409775:0;vi ~/.zshrc
+: 1479410018:0;bake.py configure -e dce-ns3-dev
+: 1479410037:0;bake.py download
+: 1479411038:0;ls
+: 1479411041:0;cd repos
+: 1479411044:0;ls
+: 1479411048:0;cd ns-3-allinone
+: 1479411048:0;ls
+: 1479411065:0;cd bake
+: 1479411065:0;ls
+: 1479411072:0;cd source
+: 1479411072:0;ls
+: 1479411085:0;cd ..
+: 1479411090:0;ls
+: 1479411124:0;ll source
+: 1479411141:0;cp pybindgen source
+: 1479411149:0;ll source
+: 1479411161:0;cp -r pybindgen source
+: 1479411165:0;ll
+: 1479411170:0;ll source
+: 1479411199:0;bake.py download
+: 1479411212:0;bake.py build
+: 1479411219:0;df -h
+: 1479411308:0;cd source
+: 1479411308:0;ls
+: 1479443024:0;s
+: 1479443025:0;ls
+: 1479443032:0;cd source
+: 1479443033:0;ls
+: 1479443093:0;rm bash bash-4.1.tar.gz ccnx ccnx-0.6.2.tar.gz elf-loader thttpd-2.25b.tar.gz wget wget-1.15.tar.gz thttpd ns-3-dev-dce ns-3-dce iperf iperf-2.0.5.tar.gz
+: 1479443100:0;rm -rf bash bash-4.1.tar.gz ccnx ccnx-0.6.2.tar.gz elf-loader thttpd-2.25b.tar.gz wget wget-1.15.tar.gz thttpd ns-3-dev-dce ns-3-dce iperf iperf-2.0.5.tar.gz
+: 1479443104:0;cd ../build
+: 1479443105:0;ls
+: 1479443110:0;rm -rf *
+: 1479443115:0;df -h
+: 1479448763:0;pwd
+: 1479448770:0;cd ..
+: 1479448771:0;ls
+: 1479448784:0;cd ..
+: 1479448784:0;ls
+: 1479448966:0;history|grep "setuptools"
+: 1479448995:0;history|grep "pip"
+: 1479457126:0;clear
+: 1479457127:0;ls
+: 1479457130:0;cd ..
+: 1479457131:0;ls
+: 1479457136:0;df -h
+: 1479457156:0;history|grep "ns-3.24"
+: 1479457427:0;history
+: 1479458589:0;nc 192.168.170.1 4444 < ~/.zsh_history
